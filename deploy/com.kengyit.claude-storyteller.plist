@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
+  "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>com.kengyit.claude-storyteller</string>
+
+  <key>ProgramArguments</key>
+  <array>
+    <string>/bin/bash</string>
+    <string>-lc</string>
+    <string>cd "__APP_DIR__" &amp;&amp; exec uv run python -m claude_storyteller.main</string>
+  </array>
+
+  <key>EnvironmentVariables</key>
+  <dict>
+    <key>CLAUDE_STORYTELLER_ENV</key>
+    <string>__ENV_FILE__</string>
+    <key>PATH</key>
+    <string>/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin</string>
+  </dict>
+
+  <key>WorkingDirectory</key>
+  <string>__APP_DIR__</string>
+
+  <key>RunAtLoad</key>
+  <true/>
+
+  <key>KeepAlive</key>
+  <true/>
+
+  <key>ThrottleInterval</key>
+  <integer>30</integer>
+
+  <key>StandardOutPath</key>
+  <string>__LOG_DIR__/claude-storyteller.out.log</string>
+
+  <key>StandardErrorPath</key>
+  <string>__LOG_DIR__/claude-storyteller.err.log</string>
+</dict>
+</plist>
