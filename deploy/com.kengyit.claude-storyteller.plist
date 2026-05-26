@@ -18,7 +18,7 @@
     <key>CLAUDE_STORYTELLER_ENV</key>
     <string>__ENV_FILE__</string>
     <key>PATH</key>
-    <string>/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin</string>
+    <string>__PATH__</string>
   </dict>
 
   <key>WorkingDirectory</key>

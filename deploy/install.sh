@@ -26,6 +26,12 @@ if ! command -v uv >/dev/null 2>&1; then
   exit 1
 fi
 
+# launchd does not source your shell profile, so the agent's PATH must
+# explicitly include wherever uv lives (commonly ~/.local/bin).
+UV_BIN_DIR="$(cd "$(dirname "$(command -v uv)")" && pwd)"
+AGENT_PATH="${UV_BIN_DIR}:/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin"
+echo "[install] uv found at: $UV_BIN_DIR"
+
 mkdir -p "$LAUNCH_AGENTS_DIR" "$LOG_DIR"
 
 echo "[install] syncing Python dependencies via uv..."
@@ -38,6 +44,7 @@ sed \
   -e "s|__APP_DIR__|${APP_DIR}|g" \
   -e "s|__ENV_FILE__|${ENV_FILE}|g" \
   -e "s|__LOG_DIR__|${LOG_DIR}|g" \
+  -e "s|__PATH__|${AGENT_PATH}|g" \
   "$APP_DIR/deploy/$LABEL.plist" > "$PLIST_DEST"
 
 # Reload: bootout (if loaded) then bootstrap.
