@@ -134,7 +134,11 @@ def _parse_daily_time(value: str) -> tuple[int, int]:
 
 
 def serve(cfg: Config) -> None:
-    log.info("starting claude-storyteller scheduler; daily at %s", cfg.daily_run_at)
+    log.info(
+        "starting claude-storyteller scheduler; daily at %s (%s)",
+        cfg.daily_run_at,
+        cfg.timezone,
+    )
 
     # Catch-up tick on boot.
     try:
@@ -143,10 +147,10 @@ def serve(cfg: Config) -> None:
         log.exception("initial run failed: %s", exc)
 
     hour, minute = _parse_daily_time(cfg.daily_run_at)
-    scheduler = BlockingScheduler(timezone="UTC")
+    scheduler = BlockingScheduler(timezone=cfg.timezone)
     scheduler.add_job(
         lambda: run_once(cfg),
-        CronTrigger(hour=hour, minute=minute),
+        CronTrigger(hour=hour, minute=minute, timezone=cfg.timezone),
         id="daily-run",
         max_instances=1,
         coalesce=True,

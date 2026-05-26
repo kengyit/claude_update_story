@@ -17,6 +17,7 @@ class Config:
     state_repo: str
     state_repo_branch: str
     daily_run_at: str
+    timezone: str
     story_model: str
     message_delay_seconds: float
     state_workdir: Path
@@ -63,6 +64,7 @@ def load_config() -> Config:
         state_repo=os.environ.get("STATE_REPO", "kengyit/claude_update_story"),
         state_repo_branch=os.environ.get("STATE_REPO_BRANCH", "main"),
         daily_run_at=os.environ.get("DAILY_RUN_AT", "09:00"),
+        timezone=os.environ.get("TIMEZONE", "Asia/Singapore"),
         story_model=os.environ.get("STORY_MODEL", "claude-sonnet-4-6"),
         message_delay_seconds=float(os.environ.get("MESSAGE_DELAY_SECONDS", "3")),
         state_workdir=workdir,

@@ -15,7 +15,7 @@ Designed to run on a Mac mini as a macOS LaunchAgent so it survives reboots.
 ```
 launchd  ─►  claude_storyteller (Python, runs forever)
               │
-              ├── APScheduler: daily run at DAILY_RUN_AT (default 09:00)
+              ├── APScheduler: daily run at DAILY_RUN_AT in TIMEZONE (default 06:00 Asia/Singapore)
               ├── Feature discovery (4 sources, union + dedupe):
               │     • docs.claude.com changelog pages
               │     • Anthropic news RSS
