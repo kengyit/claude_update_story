@@ -6,6 +6,7 @@ from urllib.parse import urljoin
 import httpx
 from selectolax.parser import HTMLParser
 
+from ._filter import is_feature_worthy
 from .base import Feature, FeatureSource
 
 log = logging.getLogger(__name__)
@@ -52,7 +53,7 @@ class AnthropicDocsSource(FeatureSource):
         out: list[Feature] = []
         for header in tree.css("h2, h3"):
             title = (header.text() or "").strip()
-            if not title or len(title) < 4:
+            if not is_feature_worthy(title):
                 continue
             summary_parts: list[str] = []
             node = header.next

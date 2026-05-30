@@ -5,6 +5,7 @@ import re
 
 from github import Github
 
+from ._filter import clean_title, is_feature_worthy
 from .base import Feature, FeatureSource
 
 log = logging.getLogger(__name__)
@@ -34,6 +35,7 @@ class ClaudeCodeReleasesSource(FeatureSource):
             log.warning("could not list releases for %s: %s", REPO_FULL_NAME, exc)
             return []
 
+        skipped = 0
         for release in releases:
             body = release.body or ""
             base_url = release.html_url
@@ -41,7 +43,10 @@ class ClaudeCodeReleasesSource(FeatureSource):
                 bullet = match.group(1).strip()
                 if len(bullet) < 6:
                     continue
-                title = bullet.split(".")[0][:120]
+                title = clean_title(bullet)
+                if not is_feature_worthy(title):
+                    skipped += 1
+                    continue
                 feat = Feature.create(
                     source_kind=self.name,
                     title=title,
@@ -51,6 +56,8 @@ class ClaudeCodeReleasesSource(FeatureSource):
                 )
                 features.setdefault(feat.stable_id, feat)
         log.info(
-            "claude-code-releases source produced %d features", len(features)
+            "claude-code-releases produced %d features (skipped %d non-feature bullets)",
+            len(features),
+            skipped,
         )
         return list(features.values())
