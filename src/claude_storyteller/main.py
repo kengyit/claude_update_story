@@ -56,7 +56,13 @@ def _collect_features(sources: list[FeatureSource]) -> list[Feature]:
     return list(seen.values())
 
 
-def run_once(cfg: Config, *, dry_run: bool = False, limit: int | None = None) -> int:
+def run_once(
+    cfg: Config,
+    *,
+    dry_run: bool = False,
+    limit: int | None = None,
+    seed_cap: int | None = None,
+) -> int:
     state_repo = StateRepo(
         workdir=cfg.state_workdir,
         repo_full_name=cfg.state_repo,
@@ -74,12 +80,41 @@ def run_once(cfg: Config, *, dry_run: bool = False, limit: int | None = None) ->
     log.info("collected %d candidate features across sources", len(all_features))
 
     new_features = store.filter_new(all_features)
-    new_features.sort(key=lambda f: f.title.lower())
+
+    # When seeding the backlog, keep the first `seed_cap` features (which are
+    # in source order, roughly newest-first) and silently mark the rest as
+    # explained so they never spam Telegram.
+    silently_skipped = 0
+    if seed_cap is not None and len(new_features) > seed_cap:
+        to_skip = new_features[seed_cap:]
+        new_features = new_features[:seed_cap]
+        for feat in to_skip:
+            store.mark_explained(feat, telegram_message_id=None)
+        silently_skipped = len(to_skip)
+        log.info(
+            "seed-cap=%d: silently marking %d older feature(s) as explained",
+            seed_cap,
+            silently_skipped,
+        )
+
     if limit is not None:
         new_features = new_features[:limit]
     log.info("%d feature(s) to explain this run", len(new_features))
 
-    if not new_features:
+    if not new_features and silently_skipped == 0:
+        return 0
+    if not new_features and silently_skipped > 0:
+        # Nothing to send, but we modified the store; persist & push.
+        store.save()
+        if not dry_run:
+            try:
+                state_repo.commit_and_push(
+                    message=f"seed backlog: mark {silently_skipped} feature(s) as explained",
+                    author_name="claude-storyteller",
+                    author_email="claude-storyteller@users.noreply.github.com",
+                )
+            except Exception as exc:
+                log.exception("state repo push failed: %s", exc)
         return 0
 
     repos = GitHubRepoLister(cfg.github_token, cfg.github_username).list_repos()
@@ -115,10 +150,17 @@ def run_once(cfg: Config, *, dry_run: bool = False, limit: int | None = None) ->
         sent += 1
         time.sleep(cfg.message_delay_seconds)
 
-    if not dry_run and sent > 0:
+    if not dry_run and (sent > 0 or silently_skipped > 0):
+        if silently_skipped > 0:
+            msg = (
+                f"explain {sent} feature(s), seed-skip {silently_skipped} older "
+                f"on {datetime.utcnow():%Y-%m-%d}"
+            )
+        else:
+            msg = f"explain {sent} feature(s) on {datetime.utcnow():%Y-%m-%d}"
         try:
             state_repo.commit_and_push(
-                message=f"explain {sent} feature(s) on {datetime.utcnow():%Y-%m-%d}",
+                message=msg,
                 author_name="claude-storyteller",
                 author_email="claude-storyteller@users.noreply.github.com",
             )
@@ -184,13 +226,28 @@ def cli() -> None:
         default=None,
         help="Cap the number of features processed in this run (useful for testing).",
     )
+    parser.add_argument(
+        "--seed-cap",
+        type=int,
+        default=None,
+        help=(
+            "First-run backlog cap: send up to N features, silently mark the rest "
+            "as explained so they never spam Telegram. Use once before installing "
+            "the LaunchAgent."
+        ),
+    )
     args = parser.parse_args()
 
     cfg = load_config()
     _configure_logging(cfg.log_level)
 
     if args.once or args.dry_run:
-        count = run_once(cfg, dry_run=args.dry_run, limit=args.limit)
+        count = run_once(
+            cfg,
+            dry_run=args.dry_run,
+            limit=args.limit,
+            seed_cap=args.seed_cap,
+        )
         log.info("run complete: %d feature(s) processed", count)
         return
 
