@@ -1,1 +1,9 @@
-{}
+{
+  "72f577fe72399b54": {
+    "title": "/bg` and `←`-detach now preserve `--allow-dangerously-skip-permissions`, so the forked worker keeps bypass-permissions available in its Shift+Tab cycle.",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.143",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.143",
+    "explained_at": "2026-05-30T15:26:52.571456+00:00",
+    "telegram_message_id": 1278
+  }
+}
