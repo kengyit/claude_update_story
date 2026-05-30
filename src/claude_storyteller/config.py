@@ -19,6 +19,7 @@ class Config:
     daily_run_at: str
     timezone: str
     story_model: str
+    backlog_cutoff_date: str
     message_delay_seconds: float
     state_workdir: Path
     log_level: str
@@ -66,6 +67,7 @@ def load_config() -> Config:
         daily_run_at=os.environ.get("DAILY_RUN_AT", "09:00"),
         timezone=os.environ.get("TIMEZONE", "Asia/Singapore"),
         story_model=os.environ.get("STORY_MODEL", "claude-sonnet-4-6"),
+        backlog_cutoff_date=os.environ.get("BACKLOG_CUTOFF_DATE", "2025-07-24"),
         message_delay_seconds=float(os.environ.get("MESSAGE_DELAY_SECONDS", "3")),
         state_workdir=workdir,
         log_level=os.environ.get("LOG_LEVEL", "INFO"),

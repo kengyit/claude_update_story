@@ -41,7 +41,11 @@ def _build_sources(cfg: Config) -> list[FeatureSource]:
         AnthropicDocsSource(),
         AnthropicNewsSource(),
         ClaudeCodeReleasesSource(github_token=cfg.github_token),
-        ClaudeProbeSource(api_key=cfg.anthropic_api_key, model=cfg.story_model),
+        ClaudeProbeSource(
+            api_key=cfg.anthropic_api_key,
+            model=cfg.story_model,
+            cutoff_date=cfg.backlog_cutoff_date,
+        ),
     ]
 
 
@@ -170,6 +174,116 @@ def run_once(
     return sent
 
 
+def run_backlog_flagship(cfg: Config, *, dry_run: bool = False) -> int:
+    """Send ONLY the curated flagship features (from the Claude probe), in
+    chronological order starting with subagents/multi-agent orchestration.
+    Every other feature surfaced by discovery is silently marked as explained
+    so daily runs don't flood Telegram with old release-bullet noise."""
+    state_repo = StateRepo(
+        workdir=cfg.state_workdir,
+        repo_full_name=cfg.state_repo,
+        branch=cfg.state_repo_branch,
+        github_token=cfg.github_token,
+    )
+    if not dry_run:
+        state_repo.ensure()
+
+    store = ExplainedStore(cfg.state_file)
+    store.load()
+
+    # 1. Curated flagship list (probe handles ordering: subagents first).
+    probe = ClaudeProbeSource(
+        api_key=cfg.anthropic_api_key,
+        model=cfg.story_model,
+        cutoff_date=cfg.backlog_cutoff_date,
+    )
+    flagship_features = probe.fetch()
+    log.info("curated probe returned %d flagship feature(s)", len(flagship_features))
+
+    # 2. Everything else discovery would surface — to be silently buried.
+    other_sources: list[FeatureSource] = [
+        AnthropicDocsSource(),
+        AnthropicNewsSource(),
+        ClaudeCodeReleasesSource(github_token=cfg.github_token),
+    ]
+    flagship_ids = {f.stable_id for f in flagship_features}
+    silently_skipped = 0
+    for src in other_sources:
+        try:
+            for feat in src.fetch():
+                if feat.stable_id in flagship_ids:
+                    continue
+                if feat.stable_id in store:  # already known
+                    continue
+                store.mark_explained(feat, telegram_message_id=None)
+                silently_skipped += 1
+        except Exception as exc:
+            log.exception("source %s failed during backlog burial: %s", src.name, exc)
+    log.info(
+        "silently marked %d non-flagship feature(s) as explained",
+        silently_skipped,
+    )
+
+    # 3. Filter flagship list down to ones not already explained.
+    to_send = [f for f in flagship_features if f.stable_id not in store._data]
+    log.info("%d flagship feature(s) to send", len(to_send))
+
+    if not to_send and silently_skipped == 0:
+        return 0
+
+    repos = GitHubRepoLister(cfg.github_token, cfg.github_username).list_repos()
+    storyteller = Storyteller(api_key=cfg.anthropic_api_key, model=cfg.story_model)
+    sender = (
+        TelegramSender(cfg.telegram_bot_token, cfg.telegram_chat_id)
+        if not dry_run
+        else None
+    )
+
+    sent = 0
+    for feature in to_send:
+        try:
+            story = storyteller.tell(feature, repos)
+        except Exception as exc:
+            log.exception("story generation failed for %s: %s", feature.title, exc)
+            continue
+
+        if dry_run:
+            print("=" * 60)
+            print(f"FLAGSHIP: {feature.title}")
+            print("-" * 60)
+            print(story)
+            print()
+            sent += 1
+            continue
+
+        try:
+            message_id = sender.send(story) if sender else None
+        except Exception as exc:
+            log.exception("telegram send failed for %s: %s", feature.title, exc)
+            continue
+
+        store.mark_explained(feature, telegram_message_id=message_id)
+        store.save()
+        sent += 1
+        time.sleep(cfg.message_delay_seconds)
+
+    if not dry_run:
+        store.save()
+        try:
+            state_repo.commit_and_push(
+                message=(
+                    f"flagship backlog: send {sent}, bury {silently_skipped} "
+                    f"(cutoff {cfg.backlog_cutoff_date})"
+                ),
+                author_name="claude-storyteller",
+                author_email="claude-storyteller@users.noreply.github.com",
+            )
+        except Exception as exc:
+            log.exception("state repo push failed: %s", exc)
+
+    return sent
+
+
 def _parse_daily_time(value: str) -> tuple[int, int]:
     hh, mm = value.split(":", 1)
     return int(hh), int(mm)
@@ -236,10 +350,26 @@ def cli() -> None:
             "the LaunchAgent."
         ),
     )
+    parser.add_argument(
+        "--backlog-flagship",
+        action="store_true",
+        help=(
+            "Seed the backlog with a CURATED list of revolutionary features "
+            "released on or after BACKLOG_CUTOFF_DATE. Sends the curated list "
+            "(subagents / multi-agent orchestration first) and silently buries "
+            "all other discovered features. Run this once before installing "
+            "the LaunchAgent."
+        ),
+    )
     args = parser.parse_args()
 
     cfg = load_config()
     _configure_logging(cfg.log_level)
+
+    if args.backlog_flagship:
+        count = run_backlog_flagship(cfg, dry_run=args.dry_run)
+        log.info("flagship backlog complete: %d feature(s) sent", count)
+        return
 
     if args.once or args.dry_run:
         count = run_once(

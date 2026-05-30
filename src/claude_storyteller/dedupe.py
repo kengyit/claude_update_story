@@ -57,3 +57,6 @@ class ExplainedStore:
 
     def __len__(self) -> int:
         return len(self._data)
+
+    def __contains__(self, stable_id: str) -> bool:
+        return stable_id in self._data
