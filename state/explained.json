@@ -867,6 +867,13 @@
     "explained_at": "2026-06-03T17:30:05.443781+00:00",
     "telegram_message_id": null
   },
+  "5f8826cd0d4a3ef9": {
+    "title": "Claude API Batch Inference Expansion",
+    "source": "claude-probe",
+    "url": "",
+    "explained_at": "2026-06-03T17:39:41.659884+00:00",
+    "telegram_message_id": 1314
+  },
   "624aff46c792724b": {
     "title": "Plugins now warn when a default component folder (e.g",
     "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.140",
@@ -1056,6 +1063,13 @@
     "explained_at": "2026-06-03T17:30:05.443827+00:00",
     "telegram_message_id": null
   },
+  "7973b3759e52b3ec": {
+    "title": "Native MCP Server Composition in Subagents",
+    "source": "claude-probe",
+    "url": "",
+    "explained_at": "2026-06-03T17:38:40.526665+00:00",
+    "telegram_message_id": 1313
+  },
   "798cbe579ed6388b": {
     "title": "FilesExpand file tree",
     "source": "https://docs.claude.com/en/release-notes/claude-code",
@@ -1125,6 +1139,13 @@
     "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.152",
     "explained_at": "2026-06-03T17:30:05.443498+00:00",
     "telegram_message_id": null
+  },
+  "7e9900aa630a8ab6": {
+    "title": "Interruptible Long-Running Agent Tasks",
+    "source": "claude-probe",
+    "url": "",
+    "explained_at": "2026-06-03T17:40:07.772268+00:00",
+    "telegram_message_id": 1315
   },
   "7ebee0f6c5a53a7b": {
     "title": "Improved memory usage by releasing warm-spare background workers under memory pressure",
@@ -1538,6 +1559,13 @@
     "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.128",
     "explained_at": "2026-06-03T17:30:05.443862+00:00",
     "telegram_message_id": null
+  },
+  "a6c493c4d01ff23c": {
+    "title": "Claude Code Agent SDK General Availability",
+    "source": "claude-probe",
+    "url": "",
+    "explained_at": "2026-06-03T17:37:39.341144+00:00",
+    "telegram_message_id": 1312
   },
   "a7254b6455f1e5af": {
     "title": "Stdio MCP server subprocesses now receive `CLAUDE_CODE_SESSION_ID` and `CLAUDECODE=1` in their environment",
@@ -2336,6 +2364,13 @@
     "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.153",
     "explained_at": "2026-06-03T17:30:05.443460+00:00",
     "telegram_message_id": null
+  },
+  "f9fbfd3b136f6efb": {
+    "title": "Subagents / Multi-Agent Orchestration in Claude Code",
+    "source": "claude-probe",
+    "url": "",
+    "explained_at": "2026-06-03T17:37:14.511687+00:00",
+    "telegram_message_id": 1311
   },
   "fa27555aace79e1b": {
     "title": "/model` now changes the model for the current session only; press `d` in the model picker to set a default for new sessions",
