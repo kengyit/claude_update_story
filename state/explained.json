@@ -13,6 +13,13 @@
     "explained_at": "2026-06-03T17:30:05.443333+00:00",
     "telegram_message_id": null
   },
+  "02c588efb0f8b861": {
+    "title": "Startup warnings rewritten to be shorter and clearer, each with a concrete fix",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.162",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.162",
+    "explained_at": "2026-06-03T22:04:42.617984+00:00",
+    "telegram_message_id": 1317
+  },
   "035aac3d528ead85": {
     "title": "August 27, 2025",
     "source": "https://docs.claude.com/en/release-notes/overview",
@@ -285,6 +292,13 @@
     "url": "https://docs.claude.com/en/release-notes/overview",
     "explained_at": "2026-06-03T17:29:52.418482+00:00",
     "telegram_message_id": null
+  },
+  "1f4e78d42b695c54": {
+    "title": "Background dispatch spawn failures now report the error class name when no errno is available",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.162",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.162",
+    "explained_at": "2026-06-03T22:06:15.689120+00:00",
+    "telegram_message_id": 1321
   },
   "1fd6c46f68516a58": {
     "title": "September 8, 2025",
@@ -713,6 +727,13 @@
     "explained_at": "2026-06-03T17:33:45.871021+00:00",
     "telegram_message_id": 1309
   },
+  "514b87cd653a08bd": {
+    "title": "Claude Agent SDK General Availability",
+    "source": "claude-probe",
+    "url": "",
+    "explained_at": "2026-06-03T22:07:35.789831+00:00",
+    "telegram_message_id": 1323
+  },
   "51e51faf04a17804": {
     "title": "Improved recovery from rare pre-response stream stalls — now retries streaming once instead of falling back to a slower non-streaming request",
     "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.144",
@@ -873,6 +894,13 @@
     "url": "",
     "explained_at": "2026-06-03T17:39:41.659884+00:00",
     "telegram_message_id": 1314
+  },
+  "601b42fb1c198264": {
+    "title": "Improved background service startup and `claude update` verification to wait out endpoint-security scanning of new binaries instead of failing after 5 seconds",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.162",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.162",
+    "explained_at": "2026-06-03T22:05:53.464605+00:00",
+    "telegram_message_id": 1320
   },
   "624aff46c792724b": {
     "title": "Plugins now warn when a default component folder (e.g",
@@ -1048,6 +1076,13 @@
     "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.143",
     "explained_at": "2026-05-30T15:26:52.571456+00:00",
     "telegram_message_id": 1278
+  },
+  "7699f6d065ec3f47": {
+    "title": "Failed turns now show a compact warning line instead of a multi-line red error block",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.162",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.162",
+    "explained_at": "2026-06-03T22:05:30.038990+00:00",
+    "telegram_message_id": 1319
   },
   "78c9821f3305ae80": {
     "title": "channels` now works with console (API key) authentication — console orgs with managed settings must set `channelsEnabled: true` to enable",
@@ -1385,6 +1420,13 @@
     "explained_at": "2026-06-03T17:30:05.443676+00:00",
     "telegram_message_id": null
   },
+  "941d65e0bf4d17f5": {
+    "title": "Claude API Streaming Tool Use",
+    "source": "claude-probe",
+    "url": "",
+    "explained_at": "2026-06-03T22:08:21.440830+00:00",
+    "telegram_message_id": 1325
+  },
   "965bee2050c5e9f3": {
     "title": "claude_code.skill_activated` OpenTelemetry event now fires for user-typed slash commands and carries a new `invocation_trigger` attribute (`\"user-slash\"`, `\"claude-proactive\"`, or...",
     "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.126",
@@ -1658,6 +1700,13 @@
     "explained_at": "2026-06-03T17:29:52.418484+00:00",
     "telegram_message_id": null
   },
+  "af24b3ed862141b4": {
+    "title": "Quieter startup: notices group by severity, and session info and announcements share a single line per launch",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.162",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.162",
+    "explained_at": "2026-06-03T22:04:20.177011+00:00",
+    "telegram_message_id": 1316
+  },
   "af98ae701c545d17": {
     "title": "The `/plugin` Discover tab now pins plugins whose relevance signals match the current directory with a \"suggested for this directory\" annotation",
     "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.154",
@@ -1678,6 +1727,13 @@
     "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.160",
     "explained_at": "2026-06-03T17:30:05.443329+00:00",
     "telegram_message_id": null
+  },
+  "b121ae00c11e2cea": {
+    "title": "Persistent Memory in Claude Apps",
+    "source": "claude-probe",
+    "url": "",
+    "explained_at": "2026-06-03T22:07:58.707686+00:00",
+    "telegram_message_id": 1324
   },
   "b1d31d3c03c4b977": {
     "title": "claude plugin marketplace remove` now accepts `--scope user|project|local` for symmetry with `marketplace add`, `install`, and `uninstall`",
@@ -1734,6 +1790,13 @@
     "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.143",
     "explained_at": "2026-06-03T17:30:05.443654+00:00",
     "telegram_message_id": null
+  },
+  "b65b54d30fa5833f": {
+    "title": "Launch-prompt warnings (deep link/pre-filled prompt) now stay pinned below the input until you act instead of scrolling away",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.162",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.162",
+    "explained_at": "2026-06-03T22:05:05.949841+00:00",
+    "telegram_message_id": 1318
   },
   "b66ec6fe36140c7e": {
     "title": "December 4, 2025",
@@ -2154,6 +2217,13 @@
     "url": "https://docs.claude.com/en/release-notes/overview",
     "explained_at": "2026-06-03T17:29:52.418358+00:00",
     "telegram_message_id": null
+  },
+  "e6f6be8ed3f49fb3": {
+    "title": "Removed the \"Claude in Chrome enabled\" and \"marketplace installed\" startup messages; model auto-updates and the team-onboarding tip now show as quiet notices under the logo",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.162",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.162",
+    "explained_at": "2026-06-03T22:06:39.438280+00:00",
+    "telegram_message_id": 1322
   },
   "e7b7f612ffdb0fe4": {
     "title": "claude agents`: launching a session no longer fails when the pre-warmed background worker is unhealthy — now falls back to a fresh launch",
