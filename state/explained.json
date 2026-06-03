@@ -1,9 +1,2375 @@
 {
+  "002a37835223349f": {
+    "title": "January 23rd, 2025",
+    "source": "https://docs.claude.com/en/release-notes/overview",
+    "url": "https://docs.claude.com/en/release-notes/overview",
+    "explained_at": "2026-06-03T17:29:52.418452+00:00",
+    "telegram_message_id": null
+  },
+  "005cf87969c18e2d": {
+    "title": "Improved performance of opening recently-inactive background agent sessions in `claude agents`",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.160",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.160",
+    "explained_at": "2026-06-03T17:30:05.443333+00:00",
+    "telegram_message_id": null
+  },
+  "035aac3d528ead85": {
+    "title": "August 27, 2025",
+    "source": "https://docs.claude.com/en/release-notes/overview",
+    "url": "https://docs.claude.com/en/release-notes/overview",
+    "explained_at": "2026-06-03T17:29:52.418419+00:00",
+    "telegram_message_id": null
+  },
+  "03aa2e9991f63758": {
+    "title": "←←` to open the agents view now works on Bedrock, Vertex, Foundry, and with telemetry disabled",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.154",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.154",
+    "explained_at": "2026-06-03T17:30:05.443413+00:00",
+    "telegram_message_id": null
+  },
+  "047e1dc296b90b47": {
+    "title": "claude mcp list`/`get` now show unapproved `.mcp.json` servers as `⏸ Pending approval` instead of auto-approving and connecting when output is piped",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.154",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.154",
+    "explained_at": "2026-06-03T17:30:05.443425+00:00",
+    "telegram_message_id": null
+  },
+  "05c8b42347b0cbc3": {
+    "title": "August 15, 2025",
+    "source": "https://docs.claude.com/en/release-notes/claude-apps",
+    "url": "https://docs.claude.com/en/release-notes/claude-apps",
+    "explained_at": "2026-06-03T17:29:52.418570+00:00",
+    "telegram_message_id": null
+  },
+  "05d442d88d4443d1": {
+    "title": "claude doctor` now shows the result of your last update attempt",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.153",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.153",
+    "explained_at": "2026-06-03T17:30:05.443455+00:00",
+    "telegram_message_id": null
+  },
+  "061dc655650d61f9": {
+    "title": "August 19th, 2024",
+    "source": "https://docs.claude.com/en/release-notes/overview",
+    "url": "https://docs.claude.com/en/release-notes/overview",
+    "explained_at": "2026-06-03T17:29:52.418503+00:00",
+    "telegram_message_id": null
+  },
+  "065049b741d69966": {
+    "title": "/mcp` now shows the tool count for connected servers and flags servers that connected with 0 tools",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.128",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.128",
+    "explained_at": "2026-06-03T17:30:05.443847+00:00",
+    "telegram_message_id": null
+  },
+  "0686e8c1a4648001": {
+    "title": "December 17th, 2024",
+    "source": "https://docs.claude.com/en/release-notes/overview",
+    "url": "https://docs.claude.com/en/release-notes/overview",
+    "explained_at": "2026-06-03T17:29:52.418466+00:00",
+    "telegram_message_id": null
+  },
+  "071e919eec436791": {
+    "title": "November 6th, 2024",
+    "source": "https://docs.claude.com/en/release-notes/overview",
+    "url": "https://docs.claude.com/en/release-notes/overview",
+    "explained_at": "2026-06-03T17:29:52.418479+00:00",
+    "telegram_message_id": null
+  },
+  "0724072b306ae845": {
+    "title": "December 19, 2025",
+    "source": "https://docs.claude.com/en/release-notes/overview",
+    "url": "https://docs.claude.com/en/release-notes/overview",
+    "explained_at": "2026-06-03T17:29:52.418362+00:00",
+    "telegram_message_id": null
+  },
+  "08faa1afc0f7dd20": {
+    "title": "skillOverrides` setting now works: `off` hides from model and `/`, `user-invocable-only` hides from model only, `name-only` collapses description",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.129",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.129",
+    "explained_at": "2026-06-03T17:30:05.443835+00:00",
+    "telegram_message_id": null
+  },
+  "0982d81ee4379c6a": {
+    "title": "January 16, 2026",
+    "source": "https://docs.claude.com/en/release-notes/claude-apps",
+    "url": "https://docs.claude.com/en/release-notes/claude-apps",
+    "explained_at": "2026-06-03T17:29:52.418542+00:00",
+    "telegram_message_id": null
+  },
+  "0bb51cb274b5dee3": {
+    "title": "Empty idle background sessions left over from `←` are now automatically retired by the daemon after 5 minutes",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.141",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.141",
+    "explained_at": "2026-06-03T17:30:05.443724+00:00",
+    "telegram_message_id": null
+  },
+  "0d1a9213785168ba": {
+    "title": "/feedback` can now include recent sessions (last 24 hours or 7 days) for issues spanning more than the current session",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.141",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.141",
+    "explained_at": "2026-06-03T17:30:05.443692+00:00",
+    "telegram_message_id": null
+  },
+  "0dc7ce22e8b948d3": {
+    "title": "Added plugin dependency enforcement: `claude plugin disable` now refuses when another enabled plugin depends on the target (with a copy-pasteable disable-chain hint), and `claude...",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.143",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.143",
+    "explained_at": "2026-06-03T17:30:05.443626+00:00",
+    "telegram_message_id": null
+  },
+  "0df09e6b34d02aad": {
+    "title": "February 19, 2026",
+    "source": "https://docs.claude.com/en/release-notes/overview",
+    "url": "https://docs.claude.com/en/release-notes/overview",
+    "explained_at": "2026-06-03T17:29:52.418334+00:00",
+    "telegram_message_id": null
+  },
+  "0f6588824f3b6e33": {
+    "title": "Added `terminalSequence` field to hook JSON output so hooks can emit desktop notifications, window titles, and bells without a controlling terminal",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.141",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.141",
+    "explained_at": "2026-06-03T17:30:05.443683+00:00",
+    "telegram_message_id": null
+  },
+  "104c6a23833d4575": {
+    "title": "December 4th, 2024",
+    "source": "https://docs.claude.com/en/release-notes/overview",
+    "url": "https://docs.claude.com/en/release-notes/overview",
+    "explained_at": "2026-06-03T17:29:52.418469+00:00",
+    "telegram_message_id": null
+  },
+  "108c66c39451a4f2": {
+    "title": "VSCode] Fixed `claudeCode.claudeProcessWrapper` failing with \"Unsupported platform\" when the extension build doesn't bundle a Claude binary",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.133",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.133",
+    "explained_at": "2026-06-03T17:30:05.443808+00:00",
+    "telegram_message_id": null
+  },
+  "10b58ee2454a800c": {
+    "title": "August 13, 2025",
+    "source": "https://docs.claude.com/en/release-notes/overview",
+    "url": "https://docs.claude.com/en/release-notes/overview",
+    "explained_at": "2026-06-03T17:29:52.418429+00:00",
+    "telegram_message_id": null
+  },
+  "1180ab38ffba429e": {
+    "title": "November 21, 2025",
+    "source": "https://docs.claude.com/en/release-notes/overview",
+    "url": "https://docs.claude.com/en/release-notes/overview",
+    "explained_at": "2026-06-03T17:29:52.418371+00:00",
+    "telegram_message_id": null
+  },
+  "11d00fa4b475774c": {
+    "title": "Added a prompt before writing to shell startup files (`.zshenv`, `.zlogin`, `.bash_login`) and `~/.config/git/`, which could otherwise lead to unintended command execution",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.160",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.160",
+    "explained_at": "2026-06-03T17:30:05.443326+00:00",
+    "telegram_message_id": null
+  },
+  "121ce8d0e278f30d": {
+    "title": "November 14, 2025",
+    "source": "https://docs.claude.com/en/release-notes/overview",
+    "url": "https://docs.claude.com/en/release-notes/overview",
+    "explained_at": "2026-06-03T17:29:52.418381+00:00",
+    "telegram_message_id": null
+  },
+  "138e25d517432847": {
+    "title": "Added hook `args: string[]` field (exec form) that spawns the command directly without a shell, so path placeholders never need quoting",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.139",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.139",
+    "explained_at": "2026-06-03T17:30:05.443747+00:00",
+    "telegram_message_id": null
+  },
+  "13a5f97e1265ea25": {
+    "title": "September 10th, 2024",
+    "source": "https://docs.claude.com/en/release-notes/overview",
+    "url": "https://docs.claude.com/en/release-notes/overview",
+    "explained_at": "2026-06-03T17:29:52.418495+00:00",
+    "telegram_message_id": null
+  },
+  "13ab07aae65dcb51": {
+    "title": "Bounded total size of file-modified reminders when a linter touches many files at once",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.126",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.126",
+    "explained_at": "2026-06-03T17:30:05.443897+00:00",
+    "telegram_message_id": null
+  },
+  "13ef4177e2448c1b": {
+    "title": "November 24, 2025",
+    "source": "https://docs.claude.com/en/release-notes/overview",
+    "url": "https://docs.claude.com/en/release-notes/overview",
+    "explained_at": "2026-06-03T17:29:52.418368+00:00",
+    "telegram_message_id": null
+  },
+  "14e9810f825c433c": {
+    "title": "September 16, 2025",
+    "source": "https://docs.claude.com/en/release-notes/overview",
+    "url": "https://docs.claude.com/en/release-notes/overview",
+    "explained_at": "2026-06-03T17:29:52.418400+00:00",
+    "telegram_message_id": null
+  },
+  "16933e3b9b9d5082": {
+    "title": "November 18, 2025",
+    "source": "https://docs.claude.com/en/release-notes/overview",
+    "url": "https://docs.claude.com/en/release-notes/overview",
+    "explained_at": "2026-06-03T17:29:52.418377+00:00",
+    "telegram_message_id": null
+  },
+  "16e1d8332e20b70b": {
+    "title": "Background sessions now preserve the model and effort level you set after waking from idle",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.143",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.143",
+    "explained_at": "2026-06-03T17:30:05.443636+00:00",
+    "telegram_message_id": null
+  },
+  "174920d264dd53d4": {
+    "title": "August 20, 2025",
+    "source": "https://docs.claude.com/en/release-notes/claude-apps",
+    "url": "https://docs.claude.com/en/release-notes/claude-apps",
+    "explained_at": "2026-06-03T17:29:52.418567+00:00",
+    "telegram_message_id": null
+  },
+  "1964cdcdea8760b4": {
+    "title": "EnterWorktree` can now switch between Claude-managed worktrees mid-session",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.157",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.157",
+    "explained_at": "2026-06-03T17:30:05.443358+00:00",
+    "telegram_message_id": null
+  },
+  "1c42a60dfc04b4d1": {
+    "title": "October 16, 2025",
+    "source": "https://docs.claude.com/en/release-notes/overview",
+    "url": "https://docs.claude.com/en/release-notes/overview",
+    "explained_at": "2026-06-03T17:29:52.418387+00:00",
+    "telegram_message_id": null
+  },
+  "1db49f9a37c0d4ea": {
+    "title": "February 24, 2026",
+    "source": "https://docs.claude.com/en/release-notes/claude-apps",
+    "url": "https://docs.claude.com/en/release-notes/claude-apps",
+    "explained_at": "2026-06-03T17:29:52.418533+00:00",
+    "telegram_message_id": null
+  },
+  "1e17e59a6dc6a5d2": {
+    "title": "Renamed \"extra usage\" to \"usage credits\" across CLI copy; `/extra-usage` is now `/usage-credits` (old name still works)",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.144",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.144",
+    "explained_at": "2026-06-03T17:30:05.443587+00:00",
+    "telegram_message_id": null
+  },
+  "1e6ae5cba2adc3c9": {
+    "title": "claude agents`: the `agent` field in `settings.json` is now honored for dispatched sessions, with `--agent <name>` to override it",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.157",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.157",
+    "explained_at": "2026-06-03T17:30:05.443356+00:00",
+    "telegram_message_id": null
+  },
+  "1eaf512a25d04627": {
+    "title": "Plugins with a root-level `SKILL.md` and no `skills/` subdirectory are now surfaced as a skill",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.142",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.142",
+    "explained_at": "2026-06-03T17:30:05.443669+00:00",
+    "telegram_message_id": null
+  },
+  "1ecd9344a9ef09fb": {
+    "title": "Hooks now receive the active effort level via the `effort.level` JSON input field and the `$CLAUDE_EFFORT` environment variable, and Bash tool commands can read `$CLAUDE_EFFORT`",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.133",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.133",
+    "explained_at": "2026-06-03T17:30:05.443799+00:00",
+    "telegram_message_id": null
+  },
+  "1eeb1c2cdaa48641": {
+    "title": "November 4th, 2024",
+    "source": "https://docs.claude.com/en/release-notes/overview",
+    "url": "https://docs.claude.com/en/release-notes/overview",
+    "explained_at": "2026-06-03T17:29:52.418482+00:00",
+    "telegram_message_id": null
+  },
+  "1fd6c46f68516a58": {
+    "title": "September 8, 2025",
+    "source": "https://docs.claude.com/en/release-notes/overview",
+    "url": "https://docs.claude.com/en/release-notes/overview",
+    "explained_at": "2026-06-03T17:29:52.418406+00:00",
+    "telegram_message_id": null
+  },
+  "20edf978f93fdc96": {
+    "title": "EnterWorktree` now creates the new branch from local HEAD as documented, instead of `origin/<default-branch>` — unpushed commits are no longer dropped",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.128",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.128",
+    "explained_at": "2026-06-03T17:30:05.443866+00:00",
+    "telegram_message_id": null
+  },
+  "21aa60625809c6bf": {
+    "title": "September 18, 2025",
+    "source": "https://docs.claude.com/en/release-notes/claude-apps",
+    "url": "https://docs.claude.com/en/release-notes/claude-apps",
+    "explained_at": "2026-06-03T17:29:52.418551+00:00",
+    "telegram_message_id": null
+  },
+  "22c4ebfe3efb5e4c": {
+    "title": "Added `CLAUDE_CODE_DISABLE_ALTERNATE_SCREEN=1` env var to opt out of the fullscreen alternate-screen renderer and keep the conversation in the terminal's native scrollback",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.132",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.132",
+    "explained_at": "2026-06-03T17:30:05.443812+00:00",
+    "telegram_message_id": null
+  },
+  "271ed5b05eb605b9": {
+    "title": "VSCode] Voice mode: the WSL error now suggests installing `sox libsox-fmt-pulse` for WSLg users",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.141",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.141",
+    "explained_at": "2026-06-03T17:30:05.443716+00:00",
+    "telegram_message_id": null
+  },
+  "276915445373c016": {
+    "title": "VSCode] Added a tip suggesting disabling terminal GPU acceleration (or running `/terminal-setup`) to fix garbled glyphs",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.161",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.161",
+    "explained_at": "2026-06-03T17:30:05.443324+00:00",
+    "telegram_message_id": null
+  },
+  "27739c7c042f8161": {
+    "title": "November 20th, 2024",
+    "source": "https://docs.claude.com/en/release-notes/overview",
+    "url": "https://docs.claude.com/en/release-notes/overview",
+    "explained_at": "2026-06-03T17:29:52.418474+00:00",
+    "telegram_message_id": null
+  },
+  "27b952bcdfa3d508": {
+    "title": "Slash command and @-mention suggestion list now supports mouse hover and click in fullscreen mode",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.145",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.145",
+    "explained_at": "2026-06-03T17:30:05.443569+00:00",
+    "telegram_message_id": null
+  },
+  "2979487477acdc8b": {
+    "title": "Added `skipLfs` option to `github`/`git` plugin marketplace sources to skip Git LFS downloads during clone and update",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.153",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.153",
+    "explained_at": "2026-06-03T17:30:05.443444+00:00",
+    "telegram_message_id": null
+  },
+  "2a2a156c530be022": {
+    "title": "Changed plugin marketplace removal key to `d` (matching delete elsewhere) instead of `r` which collided with retry",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.136",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.136",
+    "explained_at": "2026-06-03T17:30:05.443791+00:00",
+    "telegram_message_id": null
+  },
+  "2b642311bf12e8a3": {
+    "title": "Plugins in `.claude/skills` directories are now automatically loaded, no marketplace required",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.157",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.157",
+    "explained_at": "2026-06-03T17:30:05.443349+00:00",
+    "telegram_message_id": null
+  },
+  "2bfd9b3666bc0f10": {
+    "title": "/usage` now shows a per-category breakdown of what's driving your limits usage — skills, subagents, plugins, and per-MCP-server cost",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.149",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.149",
+    "explained_at": "2026-06-03T17:30:05.443517+00:00",
+    "telegram_message_id": null
+  },
+  "2c9d8b3c1c884f0e": {
+    "title": "MCP: `workspace` is now a reserved server name — existing servers with that name will be skipped with a warning",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.128",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.128",
+    "explained_at": "2026-06-03T17:30:05.443859+00:00",
+    "telegram_message_id": null
+  },
+  "2ca65efb2b874c27": {
+    "title": "Thinking summaries in the collapsed group now stay readable for at least 3 seconds, render as markdown, and cap at 10 lines (`Ctrl+O` shows the full thinking)",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.152",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.152",
+    "explained_at": "2026-06-03T17:30:05.443504+00:00",
+    "telegram_message_id": null
+  },
+  "2d1a6306303c87d6": {
+    "title": "claude agents`: autocomplete in the dispatch input now suggests native slash commands and bundled skills, not just project skills",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.153",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.153",
+    "explained_at": "2026-06-03T17:30:05.443451+00:00",
+    "telegram_message_id": null
+  },
+  "2d780c6dbc45d003": {
+    "title": "/bg` and `←`-detach now preserve `--fallback-model`, so backgrounded workers degrade to the fallback model on overload instead of hard-failing.",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.143",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.143",
+    "explained_at": "2026-06-03T17:30:05.443659+00:00",
+    "telegram_message_id": null
+  },
+  "2e0d8ef163111c29": {
+    "title": "Added transcript view navigation: `?` for keyboard shortcuts, `{`/`}` to jump between user prompts, `v` to toggle shortcut panel",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.139",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.139",
+    "explained_at": "2026-06-03T17:30:05.443745+00:00",
+    "telegram_message_id": null
+  },
+  "2e7b497a548088c8": {
+    "title": "Headless `--output-format stream-json`: `init.plugin_errors` now includes `--plugin-dir` load failures in addition to dependency demotions",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.128",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.128",
+    "explained_at": "2026-06-03T17:30:05.443870+00:00",
+    "telegram_message_id": null
+  },
+  "2e9fcfab8d847ff8": {
+    "title": "February 12, 2026",
+    "source": "https://docs.claude.com/en/release-notes/claude-apps",
+    "url": "https://docs.claude.com/en/release-notes/claude-apps",
+    "explained_at": "2026-06-03T17:29:52.418539+00:00",
+    "telegram_message_id": null
+  },
+  "2ede5ed7dfa4b4da": {
+    "title": "/code-review --fix` now applies review findings to your working tree after the review, surfacing reuse, simplification, and efficiency suggestions; `/simplify` now invokes...",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.152",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.152",
+    "explained_at": "2026-06-03T17:30:05.443474+00:00",
+    "telegram_message_id": null
+  },
+  "2f12113120683d8a": {
+    "title": "February 13, 2026",
+    "source": "https://docs.claude.com/en/release-notes/claude-apps",
+    "url": "https://docs.claude.com/en/release-notes/claude-apps",
+    "explained_at": "2026-06-03T17:29:52.418537+00:00",
+    "telegram_message_id": null
+  },
+  "30045c228ab91044": {
+    "title": "Improved Agent tool `subagent_type` matching to accept case- and separator-insensitive values (e.g",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.140",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.140",
+    "explained_at": "2026-06-03T17:30:05.443727+00:00",
+    "telegram_message_id": null
+  },
+  "3178cffbeb290fa0": {
+    "title": "Added `claude plugin init <name>` to scaffold a new plugin in `.claude/skills`",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.157",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.157",
+    "explained_at": "2026-06-03T17:30:05.443351+00:00",
+    "telegram_message_id": null
+  },
+  "31c3187480e5b050": {
+    "title": "/web-setup` warns before replacing an existing GitHub App connection",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.142",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.142",
+    "explained_at": "2026-06-03T17:30:05.443673+00:00",
+    "telegram_message_id": null
+  },
+  "33361d45f2fd953a": {
+    "title": "February 10th, 2025",
+    "source": "https://docs.claude.com/en/release-notes/overview",
+    "url": "https://docs.claude.com/en/release-notes/overview",
+    "explained_at": "2026-06-03T17:29:52.418447+00:00",
+    "telegram_message_id": null
+  },
+  "33e49ba7bc2be8ed": {
+    "title": "August 21, 2025",
+    "source": "https://docs.claude.com/en/release-notes/claude-apps",
+    "url": "https://docs.claude.com/en/release-notes/claude-apps",
+    "explained_at": "2026-06-03T17:29:52.418565+00:00",
+    "telegram_message_id": null
+  },
+  "34ed8b42947c0c67": {
+    "title": "Deprecated `CLAUDE_CODE_OPUS_4_6_FAST_MODE_OVERRIDE` (will be removed on 06/01)",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.154",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.154",
+    "explained_at": "2026-06-03T17:30:05.443432+00:00",
+    "telegram_message_id": null
+  },
+  "3561a182b39b200e": {
+    "title": "Added `agent_id` and `parent_agent_id` attributes to `claude_code.tool` OTEL spans, and fixed trace parenting so background subagent spans nest under the dispatching Agent tool...",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.145",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.145",
+    "explained_at": "2026-06-03T17:30:05.443557+00:00",
+    "telegram_message_id": null
+  },
+  "357411eb93ed4afe": {
+    "title": "Removed `CLAUDE_CODE_OPUS_4_6_FAST_MODE_OVERRIDE`; the environment variable is now a no-op",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.160",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.160",
+    "explained_at": "2026-06-03T17:30:05.443340+00:00",
+    "telegram_message_id": null
+  },
+  "35d97be6df10e72a": {
+    "title": "Added `sandbox.bwrapPath` and `sandbox.socatPath` managed settings (Linux/WSL) to specify custom bubblewrap and socat binary locations",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.133",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.133",
+    "explained_at": "2026-06-03T17:30:05.443795+00:00",
+    "telegram_message_id": null
+  },
+  "363de092aebb37ce": {
+    "title": "Added Claude Opus 4.8 support and 4.7 → 4.8 migration guidance to the `/claude-api` skill",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.154",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.154",
+    "explained_at": "2026-06-03T17:30:05.443429+00:00",
+    "telegram_message_id": null
+  },
+  "36886a83beb06250": {
+    "title": "/plugin` installed-plugin details now show hook event names and MCP server names cleanly",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.139",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.139",
+    "explained_at": "2026-06-03T17:30:05.443763+00:00",
+    "telegram_message_id": null
+  },
+  "36b8ad04fcca2709": {
+    "title": "February 25, 2026",
+    "source": "https://docs.claude.com/en/release-notes/claude-apps",
+    "url": "https://docs.claude.com/en/release-notes/claude-apps",
+    "explained_at": "2026-06-03T17:29:52.418531+00:00",
+    "telegram_message_id": null
+  },
+  "36cbd8f0902edeff": {
+    "title": "Subprocesses (Bash, hooks, MCP, LSP) no longer inherit `OTEL_*` environment variables, so OTEL-instrumented apps run via the Bash tool no longer pick up the CLI's own OTLP endpoint",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.128",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.128",
+    "explained_at": "2026-06-03T17:30:05.443857+00:00",
+    "telegram_message_id": null
+  },
+  "36f17d94ca4af2fe": {
+    "title": "Improved hook configuration error: configuring a prompt- or agent-type hook for `SessionStart`/`Setup`/`SubagentStart` now shows a clear \"use a command-type hook instead\" error",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.142",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.142",
+    "explained_at": "2026-06-03T17:30:05.443678+00:00",
+    "telegram_message_id": null
+  },
+  "375f1a26d1629395": {
+    "title": "September 29, 2025",
+    "source": "https://docs.claude.com/en/release-notes/overview",
+    "url": "https://docs.claude.com/en/release-notes/overview",
+    "explained_at": "2026-06-03T17:29:52.418393+00:00",
+    "telegram_message_id": null
+  },
+  "3849870f9caaf1f7": {
+    "title": "claude --bg --name <label>` now echoes the name in the post-spawn confirmation",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.144",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.144",
+    "explained_at": "2026-06-03T17:30:05.443602+00:00",
+    "telegram_message_id": null
+  },
+  "398afb3fcb691e6b": {
+    "title": "February 17, 2026",
+    "source": "https://docs.claude.com/en/release-notes/overview",
+    "url": "https://docs.claude.com/en/release-notes/overview",
+    "explained_at": "2026-06-03T17:29:52.418338+00:00",
+    "telegram_message_id": null
+  },
+  "3ca027c0754811a9": {
+    "title": "March 31st, 2025",
+    "source": "https://docs.claude.com/en/release-notes/overview",
+    "url": "https://docs.claude.com/en/release-notes/overview",
+    "explained_at": "2026-06-03T17:29:52.418439+00:00",
+    "telegram_message_id": null
+  },
+  "3cf7bb5c1d3b8815": {
+    "title": "February 24th, 2025",
+    "source": "https://docs.claude.com/en/release-notes/overview",
+    "url": "https://docs.claude.com/en/release-notes/overview",
+    "explained_at": "2026-06-03T17:29:52.418445+00:00",
+    "telegram_message_id": null
+  },
+  "3d8d0e0aa35c4439": {
+    "title": "Added `claude agents --json` to list live Claude sessions as JSON for scripting (tmux-resurrect, status bars, session pickers)",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.145",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.145",
+    "explained_at": "2026-06-03T17:30:05.443554+00:00",
+    "telegram_message_id": null
+  },
+  "3dd45cf276f4850c": {
+    "title": "Added `/reload-skills` command to re-scan skill directories without restarting the session",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.152",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.152",
+    "explained_at": "2026-06-03T17:30:05.443480+00:00",
+    "telegram_message_id": null
+  },
+  "4076432dac3cfd97": {
+    "title": "Renamed `/simplify` to `/code-review` with an optional effort level (e.g",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.146",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.146",
+    "explained_at": "2026-06-03T17:30:05.443547+00:00",
+    "telegram_message_id": null
+  },
+  "40e448a6df3d4450": {
+    "title": "Improved visual consistency in slash command dialogs and `/login`, `/upgrade`, `/extra-usage` dialog spacing",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.132",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.132",
+    "explained_at": "2026-06-03T17:30:05.443817+00:00",
+    "telegram_message_id": null
+  },
+  "40f3250912768805": {
+    "title": "WSL2: image paste from Windows clipboard now works via a PowerShell fallback when xclip/wl-paste cannot read image data",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.136",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.136",
+    "explained_at": "2026-06-03T17:30:05.443784+00:00",
+    "telegram_message_id": null
+  },
+  "415afa5abab8ad49": {
+    "title": "Combined the separate \"needs authentication\" startup notifications for MCP servers and connectors into a single message",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.153",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.153",
+    "explained_at": "2026-06-03T17:30:05.443457+00:00",
+    "telegram_message_id": null
+  },
+  "42c9e2d5cae47740": {
+    "title": "Added `parentSettingsBehavior` admin-tier key (`'first-wins' | 'merge'`) to let admins opt SDK `managedSettings` (parent tier) into the policy merge",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.133",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.133",
+    "explained_at": "2026-06-03T17:30:05.443797+00:00",
+    "telegram_message_id": null
+  },
+  "4389b9725c2ccb0f": {
+    "title": "Fewer spurious tool errors during search: `head`/`tail` file views now satisfy the read-before-edit check, and a \"no matches\" result (exit code 1) from `egrep`, `fgrep`, `git...",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.144",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.144",
+    "explained_at": "2026-06-03T17:30:05.443592+00:00",
+    "telegram_message_id": null
+  },
+  "43f20a8a13175ef1": {
+    "title": "April 9th, 2025",
+    "source": "https://docs.claude.com/en/release-notes/overview",
+    "url": "https://docs.claude.com/en/release-notes/overview",
+    "explained_at": "2026-06-03T17:29:52.418437+00:00",
+    "telegram_message_id": null
+  },
+  "45b828cebf664f85": {
+    "title": "October 23, 2025",
+    "source": "https://docs.claude.com/en/release-notes/claude-apps",
+    "url": "https://docs.claude.com/en/release-notes/claude-apps",
+    "explained_at": "2026-06-03T17:29:52.418548+00:00",
+    "telegram_message_id": null
+  },
+  "474476b69900a4f5": {
+    "title": "If you customized the `modelPicker:setAsDefault` keybinding, rename it to `modelPicker:thisSessionOnly` in keybindings.json (the `d` action was replaced by `s`)",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.153",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.153",
+    "explained_at": "2026-06-03T17:30:05.443471+00:00",
+    "telegram_message_id": null
+  },
+  "4766968dcf7d2353": {
+    "title": "December 19th, 2024",
+    "source": "https://docs.claude.com/en/release-notes/overview",
+    "url": "https://docs.claude.com/en/release-notes/overview",
+    "explained_at": "2026-06-03T17:29:52.418464+00:00",
+    "telegram_message_id": null
+  },
+  "47eca3511dce861d": {
+    "title": "/plugin` Discover and Browse screens now show a plugin's commands, agents, skills, hooks, and MCP/LSP servers before installation",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.145",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.145",
+    "explained_at": "2026-06-03T17:30:05.443563+00:00",
+    "telegram_message_id": null
+  },
+  "4821a20c0d2cc18d": {
+    "title": "Added `pluginSuggestionMarketplaces` managed setting: admins can allowlist org marketplaces whose plugins may be suggested via context-aware tips",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.152",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.152",
+    "explained_at": "2026-06-03T17:30:05.443488+00:00",
+    "telegram_message_id": null
+  },
+  "494319654ae87c22": {
+    "title": "Footer navigation",
+    "source": "https://docs.claude.com/en/release-notes/claude-code",
+    "url": "https://docs.claude.com/en/release-notes/claude-code",
+    "explained_at": "2026-06-03T17:29:52.418528+00:00",
+    "telegram_message_id": null
+  },
+  "49c2caa25a9ff559": {
+    "title": "Parallel tool calls: a failed Bash command no longer cancels other calls in the same batch — each tool returns its own result independently",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.161",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.161",
+    "explained_at": "2026-06-03T17:30:05.443314+00:00",
+    "telegram_message_id": null
+  },
+  "4ae135cd1def84e8": {
+    "title": "Added `/resume` support for background sessions — sessions started via `claude --bg` or agent view now appear alongside interactive ones, marked with `bg`",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.144",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.144",
+    "explained_at": "2026-06-03T17:30:05.443577+00:00",
+    "telegram_message_id": null
+  },
+  "4b6b0fbf5e5758bb": {
+    "title": "WSL: fixed image paste (`alt+v` keybinding), screenshot paste on Windows 11, and added support for dragging images from Windows Explorer",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.157",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.157",
+    "explained_at": "2026-06-03T17:30:05.443365+00:00",
+    "telegram_message_id": null
+  },
+  "4c3d63ab71e8229b": {
+    "title": "/diff` detail view can now be scrolled with the keyboard (arrows, `j`/`k`, `PgUp`/`PgDn`, `Space`, `Home`/`End`)",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.149",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.149",
+    "explained_at": "2026-06-03T17:30:05.443520+00:00",
+    "telegram_message_id": null
+  },
+  "4ec50ab2ff8c15bc": {
+    "title": "Host-managed deployments (`CLAUDE_CODE_PROVIDER_MANAGED_BY_HOST`) no longer auto-disable analytics on Bedrock/Vertex/Foundry",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.126",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.126",
+    "explained_at": "2026-06-03T17:30:05.443887+00:00",
+    "telegram_message_id": null
+  },
+  "5110096a8da0440e": {
+    "title": "Native Voice Mode in Claude Apps",
+    "source": "claude-probe",
+    "url": "",
+    "explained_at": "2026-06-03T17:33:45.871021+00:00",
+    "telegram_message_id": 1309
+  },
+  "51e51faf04a17804": {
+    "title": "Improved recovery from rare pre-response stream stalls — now retries streaming once instead of falling back to a slower non-streaming request",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.144",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.144",
+    "explained_at": "2026-06-03T17:30:05.443619+00:00",
+    "telegram_message_id": null
+  },
+  "527483b76d0e3108": {
+    "title": "VSCode] Fixed Claude Code processes not shutting down cleanly when VS Code closed on Windows, causing false \"unclean exit\" reports and orphaned MCP servers",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.153",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.153",
+    "explained_at": "2026-06-03T17:30:05.443466+00:00",
+    "telegram_message_id": null
+  },
+  "53ce47d000e7c9c3": {
+    "title": "The lean system prompt is now the default for all models except Haiku, Sonnet, and Opus 4.7 and earlier",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.154",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.154",
+    "explained_at": "2026-06-03T17:30:05.443399+00:00",
+    "telegram_message_id": null
+  },
+  "5451d5d5fec6da64": {
+    "title": "claude agents` accepts `--permission-mode`, `--model`, `--effort`, and `--dangerously-skip-permissions` to set defaults for sessions dispatched from the view",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.143",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.143",
+    "explained_at": "2026-06-03T17:30:05.443645+00:00",
+    "telegram_message_id": null
+  },
+  "5463c9846d6278d9": {
+    "title": "Opus 4.8 is here! Now defaults to high effort · /effort xhigh for your hardest tasks",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.154",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.154",
+    "explained_at": "2026-06-03T17:30:05.443391+00:00",
+    "telegram_message_id": null
+  },
+  "54c259ce3878514a": {
+    "title": "Added the session entrypoint as an OpenTelemetry metric attribute (`app.entrypoint`, opt-in via `OTEL_METRICS_INCLUDE_ENTRYPOINT=true`)",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.152",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.152",
+    "explained_at": "2026-06-03T17:30:05.443515+00:00",
+    "telegram_message_id": null
+  },
+  "550392cffe6b9703": {
+    "title": "August 12, 2025",
+    "source": "https://docs.claude.com/en/release-notes/overview",
+    "url": "https://docs.claude.com/en/release-notes/overview",
+    "explained_at": "2026-06-03T17:29:52.418431+00:00",
+    "telegram_message_id": null
+  },
+  "562623c57ea7721d": {
+    "title": "Added a `MessageDisplay` hook event that lets hooks transform or hide assistant message text as it is displayed",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.152",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.152",
+    "explained_at": "2026-06-03T17:30:05.443486+00:00",
+    "telegram_message_id": null
+  },
+  "578467bb4f4f7a0e": {
+    "title": "SDK hosts now receive a persistent `localSettings` suggestion for Bash permission prompts, so \"Always allow\" writes to `.claude/settings.local.json`",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.128",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.128",
+    "explained_at": "2026-06-03T17:30:05.443864+00:00",
+    "telegram_message_id": null
+  },
+  "596d4c429c49b6bc": {
+    "title": "claude plugin install <name>@<marketplace>` now auto-refreshes the marketplace and retries before reporting a plugin as not found",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.139",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.139",
+    "explained_at": "2026-06-03T17:30:05.443761+00:00",
+    "telegram_message_id": null
+  },
+  "59ba01777d2ec7cb": {
+    "title": "July 15th, 2024",
+    "source": "https://docs.claude.com/en/release-notes/overview",
+    "url": "https://docs.claude.com/en/release-notes/overview",
+    "explained_at": "2026-06-03T17:29:52.418508+00:00",
+    "telegram_message_id": null
+  },
+  "59bd0b5f5410fded": {
+    "title": "Rewind menu: added \"Summarize up to here\" to compress earlier context while keeping recent turns intact",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.141",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.141",
+    "explained_at": "2026-06-03T17:30:05.443694+00:00",
+    "telegram_message_id": null
+  },
+  "5a4dc966bcffa48e": {
+    "title": "/bg` now preserves `--mcp-config`, `--settings`, `--add-dir`, `--plugin-dir`, and `--strict-mcp-config`, so backgrounded sessions keep their MCP servers and settings across...",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.143",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.143",
+    "explained_at": "2026-06-03T17:30:05.443651+00:00",
+    "telegram_message_id": null
+  },
+  "5ad54f6ae321f757": {
+    "title": "Added `claude agents --cwd <path>` to scope the session list to a directory",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.141",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.141",
+    "explained_at": "2026-06-03T17:30:05.443690+00:00",
+    "telegram_message_id": null
+  },
+  "5ba47f954cb5a27e": {
+    "title": "Removed stale `/model claude-sonnet-4-20250514` suggestion from Usage Policy refusal messages",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.142",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.142",
+    "explained_at": "2026-06-03T17:30:05.443681+00:00",
+    "telegram_message_id": null
+  },
+  "5c243b7063a8807b": {
+    "title": "Compaction prompt now asks the model to preserve sensitive user instructions",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.139",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.139",
+    "explained_at": "2026-06-03T17:30:05.443754+00:00",
+    "telegram_message_id": null
+  },
+  "5cd46f6bd63a2a22": {
+    "title": "January 21st, 2025",
+    "source": "https://docs.claude.com/en/release-notes/overview",
+    "url": "https://docs.claude.com/en/release-notes/overview",
+    "explained_at": "2026-06-03T17:29:52.418455+00:00",
+    "telegram_message_id": null
+  },
+  "5d05f9c9c1d2e8f9": {
+    "title": "Gateway `/v1/models` discovery for the `/model` picker is now opt-in via `CLAUDE_CODE_ENABLE_GATEWAY_MODEL_DISCOVERY=1` (was automatic in 2.1.126–2.1.128)",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.129",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.129",
+    "explained_at": "2026-06-03T17:30:05.443829+00:00",
+    "telegram_message_id": null
+  },
+  "5e4e300c95ea91f4": {
+    "title": "Added `CLAUDE_CODE_FORCE_SYNC_OUTPUT=1` env var to force-enable synchronized output on terminals that auto-detection misses (e.g",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.129",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.129",
+    "explained_at": "2026-06-03T17:30:05.443823+00:00",
+    "telegram_message_id": null
+  },
+  "5e639e48d1ac7dd2": {
+    "title": "In fullscreen mode, the \"Thinking for Ns\" indicator now counts up live while the model is thinking, and keeps its value if you interrupt mid-thought",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.152",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.152",
+    "explained_at": "2026-06-03T17:30:05.443506+00:00",
+    "telegram_message_id": null
+  },
+  "5efc11b3a332f6dd": {
+    "title": "Renamed `/simplify` to `/code-review`",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.147",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.147",
+    "explained_at": "2026-06-03T17:30:05.443532+00:00",
+    "telegram_message_id": null
+  },
+  "5f52827181bf1cc2": {
+    "title": "Added `settings.autoMode.hard_deny` for auto mode classifier rules that block unconditionally regardless of user intent or allow exceptions",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.136",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.136",
+    "explained_at": "2026-06-03T17:30:05.443781+00:00",
+    "telegram_message_id": null
+  },
+  "624aff46c792724b": {
+    "title": "Plugins now warn when a default component folder (e.g",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.140",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.140",
+    "explained_at": "2026-06-03T17:30:05.443732+00:00",
+    "telegram_message_id": null
+  },
+  "62e38464d29f3bb7": {
+    "title": "Improved terminal rendering performance by stabilizing the layout engine's JIT compilation profile",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.161",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.161",
+    "explained_at": "2026-06-03T17:30:05.443319+00:00",
+    "telegram_message_id": null
+  },
+  "63e21e7adca9242a": {
+    "title": "Ctrl+R history picker now defaults to searching all prompts across all projects, matching pre-2.1.124 behavior",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.129",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.129",
+    "explained_at": "2026-06-03T17:30:05.443831+00:00",
+    "telegram_message_id": null
+  },
+  "64383e69f19ac5ff": {
+    "title": "Claude in Chrome: pick which connected browser to use via `/chrome` → \"Select browser…\", or in-chat when a browser action runs with multiple connected",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.154",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.154",
+    "explained_at": "2026-06-03T17:30:05.443415+00:00",
+    "telegram_message_id": null
+  },
+  "644bf28a1ede0f2d": {
+    "title": "Removed the \"bash commands will be sandboxed\" startup banner — sandbox status still shows in `/status` and when a command is blocked",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.157",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.157",
+    "explained_at": "2026-06-03T17:30:05.443376+00:00",
+    "telegram_message_id": null
+  },
+  "651d635f34b45c22": {
+    "title": "Auto mode no longer requires opt-in consent",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.152",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.152",
+    "explained_at": "2026-06-03T17:30:05.443496+00:00",
+    "telegram_message_id": null
+  },
+  "669e4bbd865d814a": {
+    "title": "dangerously-skip-permissions` now bypasses prompts for writes to `.claude/`, `.git/`, `.vscode/`, shell config files, and other previously-protected paths (catastrophic removal...",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.126",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.126",
+    "explained_at": "2026-06-03T17:30:05.443878+00:00",
+    "telegram_message_id": null
+  },
+  "67345cfc1586122a": {
+    "title": "/model` now saves your selection as the default for new sessions (matching the IDE)",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.153",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.153",
+    "explained_at": "2026-06-03T17:30:05.443469+00:00",
+    "telegram_message_id": null
+  },
+  "680ee63988f2b272": {
+    "title": "Streaming tool execution is now always enabled, including when telemetry is disabled or on Bedrock/Vertex/Foundry (previously behind a feature flag)",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.154",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.154",
+    "explained_at": "2026-06-03T17:30:05.443421+00:00",
+    "telegram_message_id": null
+  },
+  "6c0c99bf8c0fd2a5": {
+    "title": "claude agents`: agents that finish work but leave a background shell running now move to Completed instead of staying under Working",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.141",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.141",
+    "explained_at": "2026-06-03T17:30:05.443704+00:00",
+    "telegram_message_id": null
+  },
+  "6dc6bce5017a2f46": {
+    "title": "September 11, 2025",
+    "source": "https://docs.claude.com/en/release-notes/claude-apps",
+    "url": "https://docs.claude.com/en/release-notes/claude-apps",
+    "explained_at": "2026-06-03T17:29:52.418554+00:00",
+    "telegram_message_id": null
+  },
+  "6eb67995182fc633": {
+    "title": "The PowerShell tool is now enabled by default on Windows for Bedrock, Vertex, and Foundry users",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.143",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.143",
+    "explained_at": "2026-06-03T17:30:05.443641+00:00",
+    "telegram_message_id": null
+  },
+  "6ec025f14ade0918": {
+    "title": "January 15th, 2025",
+    "source": "https://docs.claude.com/en/release-notes/overview",
+    "url": "https://docs.claude.com/en/release-notes/overview",
+    "explained_at": "2026-06-03T17:29:52.418459+00:00",
+    "telegram_message_id": null
+  },
+  "6ec4a7e629a5693f": {
+    "title": "Added `/scroll-speed` command to tune mouse wheel scroll speed with a live preview",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.139",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.139",
+    "explained_at": "2026-06-03T17:30:05.443740+00:00",
+    "telegram_message_id": null
+  },
+  "6ed02e4864916f3d": {
+    "title": "November 19, 2025",
+    "source": "https://docs.claude.com/en/release-notes/overview",
+    "url": "https://docs.claude.com/en/release-notes/overview",
+    "explained_at": "2026-06-03T17:29:52.418374+00:00",
+    "telegram_message_id": null
+  },
+  "6ef2812b8ff4f28f": {
+    "title": "Added elapsed duration to background subagent completion notifications (e.g",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.144",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.144",
+    "explained_at": "2026-06-03T17:30:05.443579+00:00",
+    "telegram_message_id": null
+  },
+  "6f5d77f7c925fe73": {
+    "title": "Improved focus mode behavior",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.133",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.133",
+    "explained_at": "2026-06-03T17:30:05.443801+00:00",
+    "telegram_message_id": null
+  },
+  "6fb251a185760aab": {
+    "title": "Restored the \"view diff in your IDE\" option on file-edit permission prompts when an IDE is connected",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.141",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.141",
+    "explained_at": "2026-06-03T17:30:05.443700+00:00",
+    "telegram_message_id": null
+  },
+  "704bcf8fae2f441c": {
+    "title": "Auto mode: when the classifier can't evaluate an action, the error now includes a hint (retry, `/compact`, or run with `--debug`)",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.128",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.128",
+    "explained_at": "2026-06-03T17:30:05.443868+00:00",
+    "telegram_message_id": null
+  },
+  "712e0096b3f0875f": {
+    "title": "Improved `/feedback` reports to include the conversation that happened before context compaction, making issues from earlier in long sessions easier to triage",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.149",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.149",
+    "explained_at": "2026-06-03T17:30:05.443527+00:00",
+    "telegram_message_id": null
+  },
+  "713b846796236b14": {
+    "title": "Projects with Persistent Memory in Claude Apps",
+    "source": "claude-probe",
+    "url": "",
+    "explained_at": "2026-06-03T17:34:11.139172+00:00",
+    "telegram_message_id": 1310
+  },
+  "713dd84b85dda268": {
+    "title": "Third-party deployments (Bedrock, Vertex, Foundry, or `ANTHROPIC_BASE_URL` gateway) no longer see spinner tips pointing at first-party Anthropic surfaces",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.129",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.129",
+    "explained_at": "2026-06-03T17:30:05.443833+00:00",
+    "telegram_message_id": null
+  },
+  "71b222f1ff3ce49c": {
+    "title": "Improved diff rendering performance for large file edits",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.147",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.147",
+    "explained_at": "2026-06-03T17:30:05.443536+00:00",
+    "telegram_message_id": null
+  },
+  "7226e8ee99c6a4c8": {
+    "title": "The `/plugin` details pane and `claude plugin details` now show LSP servers a plugin provides",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.142",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.142",
+    "explained_at": "2026-06-03T17:30:05.443671+00:00",
+    "telegram_message_id": null
+  },
   "72f577fe72399b54": {
     "title": "/bg` and `←`-detach now preserve `--allow-dangerously-skip-permissions`, so the forked worker keeps bypass-permissions available in its Shift+Tab cycle.",
     "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.143",
     "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.143",
     "explained_at": "2026-05-30T15:26:52.571456+00:00",
     "telegram_message_id": 1278
+  },
+  "78c9821f3305ae80": {
+    "title": "channels` now works with console (API key) authentication — console orgs with managed settings must set `channelsEnabled: true` to enable",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.128",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.128",
+    "explained_at": "2026-06-03T17:30:05.443852+00:00",
+    "telegram_message_id": null
+  },
+  "790cefb72887aeea": {
+    "title": "Plugin manifests: `themes` and `monitors` should now be declared under `\"experimental\": { ..",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.129",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.129",
+    "explained_at": "2026-06-03T17:30:05.443827+00:00",
+    "telegram_message_id": null
+  },
+  "798cbe579ed6388b": {
+    "title": "FilesExpand file tree",
+    "source": "https://docs.claude.com/en/release-notes/claude-code",
+    "url": "https://docs.claude.com/en/release-notes/claude-code",
+    "explained_at": "2026-06-03T17:29:52.418522+00:00",
+    "telegram_message_id": null
+  },
+  "79f171dd21c3fac8": {
+    "title": "Improved performance of long and resumed conversations by eliminating redundant message-rendering recomputations",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.157",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.157",
+    "explained_at": "2026-06-03T17:30:05.443368+00:00",
+    "telegram_message_id": null
+  },
+  "7a149f891c7ed48e": {
+    "title": "Fixed: on Windows, \"Yes, and don't ask again\" for a PowerShell script invocation now writes a rule that actually matches on subsequent runs",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.147",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.147",
+    "explained_at": "2026-06-03T17:30:05.443541+00:00",
+    "telegram_message_id": null
+  },
+  "7a6a868ad950e6c8": {
+    "title": "November 13th, 2024",
+    "source": "https://docs.claude.com/en/release-notes/overview",
+    "url": "https://docs.claude.com/en/release-notes/overview",
+    "explained_at": "2026-06-03T17:29:52.418477+00:00",
+    "telegram_message_id": null
+  },
+  "7a7a439dde2286db": {
+    "title": "The post-survey follow-up hint now appears after every non-dismiss survey response with context-aware copy, making it easier to share more detail via /feedback.",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.144",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.144",
+    "explained_at": "2026-06-03T17:30:05.443624+00:00",
+    "telegram_message_id": null
+  },
+  "7a7b3c143da976b3": {
+    "title": "claude agents` no longer shows empty placeholder sessions left over from backgrounding a fresh REPL, and shows onboarding text when entered via ← with no other agents",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.141",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.141",
+    "explained_at": "2026-06-03T17:30:05.443721+00:00",
+    "telegram_message_id": null
+  },
+  "7ab942593cbfeeb5": {
+    "title": "Remote Control, `/schedule`, claude.ai MCP connectors, and notification preferences are now disabled when `ANTHROPIC_API_KEY` / `apiKeyHelper` / `ANTHROPIC_AUTH_TOKEN` is set...",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.139",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.139",
+    "explained_at": "2026-06-03T17:30:05.443772+00:00",
+    "telegram_message_id": null
+  },
+  "7c56930041b24910": {
+    "title": "Simplified the Workflow tool's inline progress display — live agent counts now show only in the persistent workflow status row below the prompt",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.152",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.152",
+    "explained_at": "2026-06-03T17:30:05.443508+00:00",
+    "telegram_message_id": null
+  },
+  "7de67981d8b73f77": {
+    "title": "/context` now shows the providing plugin's name for plugin-sourced skills",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.139",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.139",
+    "explained_at": "2026-06-03T17:30:05.443765+00:00",
+    "telegram_message_id": null
+  },
+  "7dffc2a558fff32d": {
+    "title": "Vim mode: `/` in NORMAL mode now opens reverse history search (like Ctrl+R), matching bash/zsh vi-mode",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.152",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.152",
+    "explained_at": "2026-06-03T17:30:05.443498+00:00",
+    "telegram_message_id": null
+  },
+  "7ebee0f6c5a53a7b": {
+    "title": "Improved memory usage by releasing warm-spare background workers under memory pressure",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.133",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.133",
+    "explained_at": "2026-06-03T17:30:05.443804+00:00",
+    "telegram_message_id": null
+  },
+  "7f479e77d0364e68": {
+    "title": "Fixed: background daemon spawn now falls back to the running binary when the `~/.local/bin/claude` launcher is missing or non-executable",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.143",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.143",
+    "explained_at": "2026-06-03T17:30:05.443662+00:00",
+    "telegram_message_id": null
+  },
+  "7f86742928e0fade": {
+    "title": "Added `CLAUDE_CODE_PLUGIN_PREFER_HTTPS` to clone GitHub plugin sources over HTTPS instead of SSH, for environments without a GitHub SSH key",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.141",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.141",
+    "explained_at": "2026-06-03T17:30:05.443685+00:00",
+    "telegram_message_id": null
+  },
+  "81268a662f8b3cec": {
+    "title": "Added `CLAUDE_CODE_ENABLE_FEEDBACK_SURVEY_FOR_OTEL` to re-enable the session quality survey for enterprises capturing responses through OpenTelemetry",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.136",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.136",
+    "explained_at": "2026-06-03T17:30:05.443779+00:00",
+    "telegram_message_id": null
+  },
+  "81d09e80715e967e": {
+    "title": "Worktrees managed by Claude are now left unlocked when the agent finishes, so `git worktree remove`/`prune` can clean them up",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.157",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.157",
+    "explained_at": "2026-06-03T17:30:05.443363+00:00",
+    "telegram_message_id": null
+  },
+  "833477d469dbd34f": {
+    "title": "January 31st, 2025",
+    "source": "https://docs.claude.com/en/release-notes/overview",
+    "url": "https://docs.claude.com/en/release-notes/overview",
+    "explained_at": "2026-06-03T17:29:52.418450+00:00",
+    "telegram_message_id": null
+  },
+  "839faf21597bb554": {
+    "title": "/doctor` now shows an exec-form example when a command hook is missing the `command` field",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.144",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.144",
+    "explained_at": "2026-06-03T17:30:05.443614+00:00",
+    "telegram_message_id": null
+  },
+  "883cca641e2fdf6b": {
+    "title": "claude agents`: renaming a background session with Ctrl+R now updates the attached session's banner immediately",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.144",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.144",
+    "explained_at": "2026-06-03T17:30:05.443604+00:00",
+    "telegram_message_id": null
+  },
+  "88489c146ee292bc": {
+    "title": "Removed the stale \"& for background\" hint from the shortcuts help panel",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.154",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.154",
+    "explained_at": "2026-06-03T17:30:05.443439+00:00",
+    "telegram_message_id": null
+  },
+  "8959d1efa7ffb961": {
+    "title": "claude --bg --dangerously-skip-permissions` now persists across retire→wake",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.143",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.143",
+    "explained_at": "2026-06-03T17:30:05.443647+00:00",
+    "telegram_message_id": null
+  },
+  "897cfa345fa12fff": {
+    "title": "Improved background-session teardown (`claude rm`/`stop`, idle reap) to send SIGTERM to running shell subprocesses before SIGKILL, so cleanup handlers run",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.160",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.160",
+    "explained_at": "2026-06-03T17:30:05.443337+00:00",
+    "telegram_message_id": null
+  },
+  "897fa157c6c192e3": {
+    "title": "Added a \"Workflow keyword trigger\" setting in /config to stop the word \"workflow\" in a prompt from triggering a dynamic workflow",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.157",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.157",
+    "explained_at": "2026-06-03T17:30:05.443388+00:00",
+    "telegram_message_id": null
+  },
+  "8a606a2cb79d33a9": {
+    "title": "IDE] Fixed clicking Stop while a background subagent is running not actually stopping it",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.157",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.157",
+    "explained_at": "2026-06-03T17:30:05.443382+00:00",
+    "telegram_message_id": null
+  },
+  "8a681a909ff55646": {
+    "title": "Background agents launched via `/bg` or `←←` now preserve the current permission mode instead of reverting to default",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.141",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.141",
+    "explained_at": "2026-06-03T17:30:05.443702+00:00",
+    "telegram_message_id": null
+  },
+  "8aa3045b850bf9a7": {
+    "title": "Enterprise: added the `allowAllClaudeAiMcps` managed setting to load claude.ai cloud MCP connectors alongside `managed-mcp.json`",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.149",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.149",
+    "explained_at": "2026-06-03T17:30:05.443525+00:00",
+    "telegram_message_id": null
+  },
+  "8aadc7b91c4d28f0": {
+    "title": "The `/usage` breakdown now includes large session files; files are scanned with a streaming read so memory usage stays flat",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.152",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.152",
+    "explained_at": "2026-06-03T17:30:05.443501+00:00",
+    "telegram_message_id": null
+  },
+  "8ac5e3b04db643fc": {
+    "title": "January 12, 2026",
+    "source": "https://docs.claude.com/en/release-notes/overview",
+    "url": "https://docs.claude.com/en/release-notes/overview",
+    "explained_at": "2026-06-03T17:29:52.418355+00:00",
+    "telegram_message_id": null
+  },
+  "8b6209d402dfb5fc": {
+    "title": "Plugin marketplace add/update now respects `CLAUDE_CODE_PLUGIN_PREFER_HTTPS`",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.144",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.144",
+    "explained_at": "2026-06-03T17:30:05.443608+00:00",
+    "telegram_message_id": null
+  },
+  "8bd695c44f530cdd": {
+    "title": "Plugins can now declare `defaultEnabled: false` in `plugin.json` or a marketplace entry; enable them with `/plugin` or `claude plugin enable`",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.154",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.154",
+    "explained_at": "2026-06-03T17:30:05.443417+00:00",
+    "telegram_message_id": null
+  },
+  "8ce8e95b4a2f43e9": {
+    "title": "Status line JSON input now includes GitHub repo and PR information when detected",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.145",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.145",
+    "explained_at": "2026-06-03T17:30:05.443560+00:00",
+    "telegram_message_id": null
+  },
+  "8d6f8e34e86412ee": {
+    "title": "Pressing backspace right after a workflow trigger keyword now dismisses the workflow request (same as alt+w) instead of deleting a character",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.157",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.157",
+    "explained_at": "2026-06-03T17:30:05.443385+00:00",
+    "telegram_message_id": null
+  },
+  "8e13080fbce71c35": {
+    "title": "Auto mode no longer suppresses `AskUserQuestion` when the user or a skill explicitly relies on it",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.146",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.146",
+    "explained_at": "2026-06-03T17:30:05.443549+00:00",
+    "telegram_message_id": null
+  },
+  "8e9d90f5499bb64b": {
+    "title": "Fixed: on Windows, removing a background-job worktree no longer follows NTFS junctions into the main repo",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.147",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.147",
+    "explained_at": "2026-06-03T17:30:05.443544+00:00",
+    "telegram_message_id": null
+  },
+  "8f0fb83bb16c7dfe": {
+    "title": "February 7, 2026",
+    "source": "https://docs.claude.com/en/release-notes/overview",
+    "url": "https://docs.claude.com/en/release-notes/overview",
+    "explained_at": "2026-06-03T17:29:52.418343+00:00",
+    "telegram_message_id": null
+  },
+  "8f5587212d9ec341": {
+    "title": "/mcp` now collapses claude.ai connectors you've never signed in to behind a \"Show unused connectors\" row",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.161",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.161",
+    "explained_at": "2026-06-03T17:30:05.443305+00:00",
+    "telegram_message_id": null
+  },
+  "8f6a017c7c0a4739": {
+    "title": "January 29, 2026",
+    "source": "https://docs.claude.com/en/release-notes/overview",
+    "url": "https://docs.claude.com/en/release-notes/overview",
+    "explained_at": "2026-06-03T17:29:52.418351+00:00",
+    "telegram_message_id": null
+  },
+  "8fe5393e32940df0": {
+    "title": "Added `ANTHROPIC_WORKSPACE_ID` environment variable for workload identity federation — scopes the minted token to a specific workspace when the federation rule covers more than one",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.141",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.141",
+    "explained_at": "2026-06-03T17:30:05.443687+00:00",
+    "telegram_message_id": null
+  },
+  "90c0e011508300b2": {
+    "title": "Improved auto-updater reliability: native version checks and downloads now retry transient network failures instead of failing immediately",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.146",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.146",
+    "explained_at": "2026-06-03T17:30:05.443552+00:00",
+    "telegram_message_id": null
+  },
+  "913f26f7f33ec5c0": {
+    "title": "Improved visual consistency across slash command dialogs: standardized footer hints, dialog spacing, and arrow-key styling, and the dialog frame now appears immediately during...",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.136",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.136",
+    "explained_at": "2026-06-03T17:30:05.443786+00:00",
+    "telegram_message_id": null
+  },
+  "91ab1423180846ab": {
+    "title": "Bedrock: `awsCredentialExport` now always runs when configured instead of being skipped when ambient AWS credentials resolve, fixing auth for cross-account access",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.141",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.141",
+    "explained_at": "2026-06-03T17:30:05.443711+00:00",
+    "telegram_message_id": null
+  },
+  "926812d93baec578": {
+    "title": "Remote MCP server reconnect retry on transient failures is now enabled for all users",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.139",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.139",
+    "explained_at": "2026-06-03T17:30:05.443767+00:00",
+    "telegram_message_id": null
+  },
+  "92711b24ea8a16e4": {
+    "title": "/plugin` now returns to the Installed list after enabling, disabling, or uninstalling a plugin",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.144",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.144",
+    "explained_at": "2026-06-03T17:30:05.443611+00:00",
+    "telegram_message_id": null
+  },
+  "92a30faaee480050": {
+    "title": "The `claude_code.pull_request.count` OTel metric now counts PRs/MRs created via MCP tools, not just shell commands",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.129",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.129",
+    "explained_at": "2026-06-03T17:30:05.443838+00:00",
+    "telegram_message_id": null
+  },
+  "932bd21e60fb695d": {
+    "title": "Improved reactive compaction: the first summarize attempt now seeds from the original request's overflow size, avoiding a wasted near-full-context retry",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.142",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.142",
+    "explained_at": "2026-06-03T17:30:05.443676+00:00",
+    "telegram_message_id": null
+  },
+  "965bee2050c5e9f3": {
+    "title": "claude_code.skill_activated` OpenTelemetry event now fires for user-typed slash commands and carries a new `invocation_trigger` attribute (`\"user-slash\"`, `\"claude-proactive\"`, or...",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.126",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.126",
+    "explained_at": "2026-06-03T17:30:05.443882+00:00",
+    "telegram_message_id": null
+  },
+  "97c508d12be04a48": {
+    "title": "Claude Code now shows a one-time notice when your npm global install can't auto-update; `/doctor` lists the fixes",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.153",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.153",
+    "explained_at": "2026-06-03T17:30:05.443446+00:00",
+    "telegram_message_id": null
+  },
+  "98587219325e86dd": {
+    "title": "tool_decision` telemetry events now include `tool_parameters` (bash commands, MCP/skill names) when `OTEL_LOG_TOOL_DETAILS=1`",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.157",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.157",
+    "explained_at": "2026-06-03T17:30:05.443361+00:00",
+    "telegram_message_id": null
+  },
+  "99aae4a6cbb29ab0": {
+    "title": "/remote-control` autocomplete now shows \"Disconnect Remote Control\" when Remote Control is already active",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.154",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.154",
+    "explained_at": "2026-06-03T17:30:05.443427+00:00",
+    "telegram_message_id": null
+  },
+  "99b1607873ba9dff": {
+    "title": "Fast mode on Opus 4.8 is now available at a fraction of its previous cost: 2x the standard rate for 2.5x the speed",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.154",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.154",
+    "explained_at": "2026-06-03T17:30:05.443396+00:00",
+    "telegram_message_id": null
+  },
+  "99b2fe621e8d7933": {
+    "title": "claude --help` now lists `--remote-control` alongside `--remote-control-session-name-prefix`",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.133",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.133",
+    "explained_at": "2026-06-03T17:30:05.443806+00:00",
+    "telegram_message_id": null
+  },
+  "99c6e6146e4ada68": {
+    "title": "Improved SDK/headless MCP startup: pre-wait now overlaps startup instead of blocking before the first turn (up to 2s faster with slow MCP servers)",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.144",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.144",
+    "explained_at": "2026-06-03T17:30:05.443622+00:00",
+    "telegram_message_id": null
+  },
+  "9ad5452bb30326a8": {
+    "title": "API requests from subagents now carry `x-claude-code-agent-id` / `x-claude-code-parent-agent-id` headers, and `claude_code.llm_request` OTEL spans include `agent_id` /...",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.139",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.139",
+    "explained_at": "2026-06-03T17:30:05.443770+00:00",
+    "telegram_message_id": null
+  },
+  "9bce32453cfc61da": {
+    "title": "December 18, 2025",
+    "source": "https://docs.claude.com/en/release-notes/claude-apps",
+    "url": "https://docs.claude.com/en/release-notes/claude-apps",
+    "explained_at": "2026-06-03T17:29:52.418545+00:00",
+    "telegram_message_id": null
+  },
+  "9c159ce410026c2e": {
+    "title": "October 8th, 2024",
+    "source": "https://docs.claude.com/en/release-notes/overview",
+    "url": "https://docs.claude.com/en/release-notes/overview",
+    "explained_at": "2026-06-03T17:29:52.418489+00:00",
+    "telegram_message_id": null
+  },
+  "9ca318e05689d14c": {
+    "title": "Shift+Tab in attached agent sessions now includes auto mode in the cycle",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.143",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.143",
+    "explained_at": "2026-06-03T17:30:05.443638+00:00",
+    "telegram_message_id": null
+  },
+  "9d6af50dae335bb2": {
+    "title": "Improved auto-updater: retries transient network failures, reports specific error categories and OS error codes on failure, and shows the current version when an update fails",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.147",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.147",
+    "explained_at": "2026-06-03T17:30:05.443534+00:00",
+    "telegram_message_id": null
+  },
+  "9d96b95be5aaeebc": {
+    "title": "Auto mode: the spinner now turns red when a permission check stalls, instead of looking like the tool is running",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.126",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.126",
+    "explained_at": "2026-06-03T17:30:05.443884+00:00",
+    "telegram_message_id": null
+  },
+  "9dc1b99311270c1d": {
+    "title": "Added `CLAUDE_CODE_SESSION_ID` environment variable to the Bash tool subprocess environment, matching the `session_id` passed to hooks",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.132",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.132",
+    "explained_at": "2026-06-03T17:30:05.443810+00:00",
+    "telegram_message_id": null
+  },
+  "9e77bb44ddc7a685": {
+    "title": "Added `claude project purge [path]` to delete all Claude Code state for a project (transcripts, tasks, file history, config entry) — supports `--dry-run`, `-y/--yes`...",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.126",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.126",
+    "explained_at": "2026-06-03T17:30:05.443875+00:00",
+    "telegram_message_id": null
+  },
+  "a0571fd62b34da44": {
+    "title": "plugin-dir` now accepts `.zip` plugin archives in addition to directories",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.128",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.128",
+    "explained_at": "2026-06-03T17:30:05.443849+00:00",
+    "telegram_message_id": null
+  },
+  "a0fd7f37fc51c9a1": {
+    "title": "Improved plugin menu navigation: `→`/Tab switch tabs, `↑` moves to the tab strip, and tab headers and search box are clickable in fullscreen mode",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.141",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.141",
+    "explained_at": "2026-06-03T17:30:05.443709+00:00",
+    "telegram_message_id": null
+  },
+  "a11a860c899d4b13": {
+    "title": "August 19, 2025",
+    "source": "https://docs.claude.com/en/release-notes/overview",
+    "url": "https://docs.claude.com/en/release-notes/overview",
+    "explained_at": "2026-06-03T17:29:52.418424+00:00",
+    "telegram_message_id": null
+  },
+  "a1c3a4b89f40d406": {
+    "title": "claude agents` terminal tab title now shows the awaiting-input count so an alt-tabbed window tells you when an agent needs attention",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.145",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.145",
+    "explained_at": "2026-06-03T17:30:05.443566+00:00",
+    "telegram_message_id": null
+  },
+  "a38fb7811f6797d2": {
+    "title": "September 4th, 2024",
+    "source": "https://docs.claude.com/en/release-notes/overview",
+    "url": "https://docs.claude.com/en/release-notes/overview",
+    "explained_at": "2026-06-03T17:29:52.418497+00:00",
+    "telegram_message_id": null
+  },
+  "a48193aab64ba9c9": {
+    "title": "VSCode] Fixed the fast mode indicator not appearing on Opus 4.8",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.157",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.157",
+    "explained_at": "2026-06-03T17:30:05.443384+00:00",
+    "telegram_message_id": null
+  },
+  "a4c9d65d337b1ddb": {
+    "title": "Updated the `/tui fullscreen` startup banner to describe additional renderer benefits (lower memory usage, mouse support, auto-copy on select)",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.132",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.132",
+    "explained_at": "2026-06-03T17:30:05.443819+00:00",
+    "telegram_message_id": null
+  },
+  "a584b7a533524b72": {
+    "title": "Windows: Fixed update failures caused by `claude.exe` being in use showing a generic error instead of telling you to close other sessions and retry",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.154",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.154",
+    "explained_at": "2026-06-03T17:30:05.443436+00:00",
+    "telegram_message_id": null
+  },
+  "a593cfe2024042f6": {
+    "title": "Renamed the `/effort` slider labels from \"Speed\"/\"Intelligence\" to \"Faster\"/\"Smarter\" for clarity",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.154",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.154",
+    "explained_at": "2026-06-03T17:30:05.443406+00:00",
+    "telegram_message_id": null
+  },
+  "a59d5021150096df": {
+    "title": "Reconnecting MCP servers no longer flood the conversation with full tool-name lists on every reconnect — re-announced tools are summarized by server prefix",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.128",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.128",
+    "explained_at": "2026-06-03T17:30:05.443862+00:00",
+    "telegram_message_id": null
+  },
+  "a7254b6455f1e5af": {
+    "title": "Stdio MCP server subprocesses now receive `CLAUDE_CODE_SESSION_ID` and `CLAUDECODE=1` in their environment",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.154",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.154",
+    "explained_at": "2026-06-03T17:30:05.443423+00:00",
+    "telegram_message_id": null
+  },
+  "a7a68d2f0c4adb66": {
+    "title": "Pinned background sessions (`Ctrl+T` in `claude agents`) now stay alive when idle, are restarted in place to apply Claude Code updates, and are shed under memory pressure only...",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.147",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.147",
+    "explained_at": "2026-06-03T17:30:05.443529+00:00",
+    "telegram_message_id": null
+  },
+  "a7b4f055f2c10a8d": {
+    "title": "SessionStart` hooks can now return `reloadSkills: true` to re-scan skill directories, making skills installed by the hook available in the same session",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.152",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.152",
+    "explained_at": "2026-06-03T17:30:05.443482+00:00",
+    "telegram_message_id": null
+  },
+  "a7c96a2ab3714151": {
+    "title": "Background session worktree isolation guard now applies for non-git VCS users with `WorktreeCreate` hooks configured",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.144",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.144",
+    "explained_at": "2026-06-03T17:30:05.443606+00:00",
+    "telegram_message_id": null
+  },
+  "a9676637c5dbabc3": {
+    "title": "Added hook `continueOnBlock` config option for `PostToolUse` — set to `true` to feed the hook's rejection reason back to Claude and continue the turn",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.139",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.139",
+    "explained_at": "2026-06-03T17:30:05.443749+00:00",
+    "telegram_message_id": null
+  },
+  "a98ec141829d93ba": {
+    "title": "The post-response timer now shows \"Waiting for N background agents/workflows to finish\" when backgrounded agents or workflows are still running, and reports the cumulative time...",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.152",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.152",
+    "explained_at": "2026-06-03T17:30:05.443510+00:00",
+    "telegram_message_id": null
+  },
+  "a9b56f4d2efcee1e": {
+    "title": "Claude now reserves the multiple-choice question prompt for decisions it genuinely cannot make itself, instead of asking when it already has enough context to proceed",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.154",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.154",
+    "explained_at": "2026-06-03T17:30:05.443401+00:00",
+    "telegram_message_id": null
+  },
+  "a9f3b838caf39f94": {
+    "title": "/terminal-setup` now disables GPU acceleration in VS Code/Cursor/Windsurf integrated terminals to prevent garbled-text rendering",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.157",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.157",
+    "explained_at": "2026-06-03T17:30:05.443370+00:00",
+    "telegram_message_id": null
+  },
+  "aa79dd4c9b0298c5": {
+    "title": "SessionStart` hooks can now set the session title via `hookSpecificOutput.sessionTitle` on startup and resume",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.152",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.152",
+    "explained_at": "2026-06-03T17:30:05.443483+00:00",
+    "telegram_message_id": null
+  },
+  "aa7a22d61e239b2b": {
+    "title": "August 18, 2025",
+    "source": "https://docs.claude.com/en/release-notes/overview",
+    "url": "https://docs.claude.com/en/release-notes/overview",
+    "explained_at": "2026-06-03T17:29:52.418427+00:00",
+    "telegram_message_id": null
+  },
+  "ab8bbe8f61556ede": {
+    "title": "Bare `/color` (no args) now picks a random session color",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.128",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.128",
+    "explained_at": "2026-06-03T17:30:05.443844+00:00",
+    "telegram_message_id": null
+  },
+  "abe8231822297e7f": {
+    "title": "OTEL_RESOURCE_ATTRIBUTES` values are now included as labels on metric datapoints, so you can slice usage metrics by custom dimensions like team or repo",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.161",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.161",
+    "explained_at": "2026-06-03T17:30:05.443279+00:00",
+    "telegram_message_id": null
+  },
+  "ac0ec3380b6a141c": {
+    "title": "November 1st, 2024",
+    "source": "https://docs.claude.com/en/release-notes/overview",
+    "url": "https://docs.claude.com/en/release-notes/overview",
+    "explained_at": "2026-06-03T17:29:52.418484+00:00",
+    "telegram_message_id": null
+  },
+  "af98ae701c545d17": {
+    "title": "The `/plugin` Discover tab now pins plugins whose relevance signals match the current directory with a \"suggested for this directory\" annotation",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.154",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.154",
+    "explained_at": "2026-06-03T17:30:05.443419+00:00",
+    "telegram_message_id": null
+  },
+  "afabbb9583ead4e2": {
+    "title": "Skill-listing truncation is no longer shown as a startup notification — run `/doctor` for the full breakdown",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.144",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.144",
+    "explained_at": "2026-06-03T17:30:05.443616+00:00",
+    "telegram_message_id": null
+  },
+  "b038696eaf8ffeba": {
+    "title": "acceptEdits` mode now prompts before writing build-tool config files that grant code execution (`.npmrc`, `.yarnrc*`, `bunfig.toml`, `.bazelrc`, `.pre-commit-config.yaml`...",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.160",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.160",
+    "explained_at": "2026-06-03T17:30:05.443329+00:00",
+    "telegram_message_id": null
+  },
+  "b1d31d3c03c4b977": {
+    "title": "claude plugin marketplace remove` now accepts `--scope user|project|local` for symmetry with `marketplace add`, `install`, and `uninstall`",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.152",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.152",
+    "explained_at": "2026-06-03T17:30:05.443490+00:00",
+    "telegram_message_id": null
+  },
+  "b1f23338c214697e": {
+    "title": "Navigation Menu",
+    "source": "https://docs.claude.com/en/release-notes/claude-code",
+    "url": "https://docs.claude.com/en/release-notes/claude-code",
+    "explained_at": "2026-06-03T17:29:52.418516+00:00",
+    "telegram_message_id": null
+  },
+  "b2faa71fbd0b2a4a": {
+    "title": "/bg` while Claude is responding now continues the response in the background session instead of dropping it",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.153",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.153",
+    "explained_at": "2026-06-03T17:30:05.443464+00:00",
+    "telegram_message_id": null
+  },
+  "b305d2aa419cd174": {
+    "title": "Worktree cleanup no longer falls back to `rm -rf` when `git worktree remove` fails, preventing loss of gitignored or in-progress files",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.143",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.143",
+    "explained_at": "2026-06-03T17:30:05.443650+00:00",
+    "telegram_message_id": null
+  },
+  "b308efa1869b64cb": {
+    "title": "October 22nd, 2024",
+    "source": "https://docs.claude.com/en/release-notes/overview",
+    "url": "https://docs.claude.com/en/release-notes/overview",
+    "explained_at": "2026-06-03T17:29:52.418487+00:00",
+    "telegram_message_id": null
+  },
+  "b370523f136eea8c": {
+    "title": "Auto mode permission dialog now explains when a `permissions.ask` rule caused the prompt",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.141",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.141",
+    "explained_at": "2026-06-03T17:30:05.443697+00:00",
+    "telegram_message_id": null
+  },
+  "b5a6259aa94cf8b5": {
+    "title": "Added agent view (Research Preview): a single list of every Claude Code session — running, blocked on you, or done",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.139",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.139",
+    "explained_at": "2026-06-03T17:30:05.443734+00:00",
+    "telegram_message_id": null
+  },
+  "b5c6e6a92349abb9": {
+    "title": "Background sessions launched from `claude agents` now honor `permissions.defaultMode` from settings.json (was previously overridden to auto mode)",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.143",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.143",
+    "explained_at": "2026-06-03T17:30:05.443654+00:00",
+    "telegram_message_id": null
+  },
+  "b66ec6fe36140c7e": {
+    "title": "December 4, 2025",
+    "source": "https://docs.claude.com/en/release-notes/overview",
+    "url": "https://docs.claude.com/en/release-notes/overview",
+    "explained_at": "2026-06-03T17:29:52.418365+00:00",
+    "telegram_message_id": null
+  },
+  "b7d182b12beda4a8": {
+    "title": "Added new `claude agents` flags: `--add-dir`, `--settings`, `--mcp-config`, `--plugin-dir`, `--permission-mode`, `--model`, `--effort`, and `--dangerously-skip-permissions` to...",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.142",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.142",
+    "explained_at": "2026-06-03T17:30:05.443664+00:00",
+    "telegram_message_id": null
+  },
+  "b818ca47e72721da": {
+    "title": "Added projected context cost (per-turn and per-invocation token estimates) to the `/plugin` marketplace browse pane",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.143",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.143",
+    "explained_at": "2026-06-03T17:30:05.443628+00:00",
+    "telegram_message_id": null
+  },
+  "b9dfce1574b7d7ef": {
+    "title": "Extended Thinking in Streaming API",
+    "source": "claude-probe",
+    "url": "",
+    "explained_at": "2026-06-03T17:32:55.207288+00:00",
+    "telegram_message_id": 1307
+  },
+  "ba216478924071c7": {
+    "title": "Updated `/model` picker: collapsed duplicate Opus 4.7 entries, and current Opus now shows as \"Opus\" instead of \"Opus 4.7\"",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.128",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.128",
+    "explained_at": "2026-06-03T17:30:05.443854+00:00",
+    "telegram_message_id": null
+  },
+  "bb299f2cd5292f74": {
+    "title": "VSCode] Press Cmd/Ctrl+Shift+T to reopen the most recently closed session tab, configurable via `claudeCode.enableReopenClosedSessionShortcut`",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.139",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.139",
+    "explained_at": "2026-06-03T17:30:05.443774+00:00",
+    "telegram_message_id": null
+  },
+  "bbb6e5a561f6f782": {
+    "title": "August 26, 2025",
+    "source": "https://docs.claude.com/en/release-notes/overview",
+    "url": "https://docs.claude.com/en/release-notes/overview",
+    "explained_at": "2026-06-03T17:29:52.418422+00:00",
+    "telegram_message_id": null
+  },
+  "bdaddd6085129ed0": {
+    "title": "Added `--plugin-url <url>` flag to fetch a plugin `.zip` archive from a URL for the current session",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.129",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.129",
+    "explained_at": "2026-06-03T17:30:05.443821+00:00",
+    "telegram_message_id": null
+  },
+  "bdbac080b4a1f75e": {
+    "title": "Reduced terminal rendering glitches in VS Code by reducing spinner animation color count",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.144",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.144",
+    "explained_at": "2026-06-03T17:30:05.443589+00:00",
+    "telegram_message_id": null
+  },
+  "be647c4997589340": {
+    "title": "Stop and SubagentStop hook input now includes `background_tasks` and `session_crons` fields",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.145",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.145",
+    "explained_at": "2026-06-03T17:30:05.443572+00:00",
+    "telegram_message_id": null
+  },
+  "bf1921c744e3f067": {
+    "title": "VSCode] Auto mode no longer requires the bypass-permissions setting to appear in the mode picker, and a dismissable notice on the new-session screen explains auto mode the first...",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.154",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.154",
+    "explained_at": "2026-06-03T17:30:05.443441+00:00",
+    "telegram_message_id": null
+  },
+  "bf311350b007137b": {
+    "title": "Improved rendering performance for large file writes",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.161",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.161",
+    "explained_at": "2026-06-03T17:30:05.443321+00:00",
+    "telegram_message_id": null
+  },
+  "c160cad1777bf52c": {
+    "title": "claude agents`: PR column now shows `PR #N` for a single PR or `N PRs` for multiple",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.153",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.153",
+    "explained_at": "2026-06-03T17:30:05.443453+00:00",
+    "telegram_message_id": null
+  },
+  "c23f1971704adf1d": {
+    "title": "Status line commands now receive `COLUMNS` and `LINES` environment variables so scripts can size output to the terminal width",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.153",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.153",
+    "explained_at": "2026-06-03T17:30:05.443448+00:00",
+    "telegram_message_id": null
+  },
+  "c2ce3267d7bbe3f5": {
+    "title": "Markdown output now renders GFM task list checkboxes (`- [ ] todo` / `- [x] done`) instead of plain bullets",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.149",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.149",
+    "explained_at": "2026-06-03T17:30:05.443522+00:00",
+    "telegram_message_id": null
+  },
+  "c2f6fbae4c6fc61e": {
+    "title": "Windows: PowerShell 7 installed via the Microsoft Store, MSI without PATH, or `.NET global tool` is now detected",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.126",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.126",
+    "explained_at": "2026-06-03T17:30:05.443889+00:00",
+    "telegram_message_id": null
+  },
+  "c4c14d11b097b022": {
+    "title": "Auto mode is now available on Bedrock, Vertex, and Foundry for Opus 4.7 and Opus 4.8",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.158",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.158",
+    "explained_at": "2026-06-03T17:30:05.443347+00:00",
+    "telegram_message_id": null
+  },
+  "c4f072822cfd8b08": {
+    "title": "Fullscreen mode: clipboard now uses `wl-copy`/`xclip`/`xsel` on Linux when available, copies to both the clipboard and PRIMARY selection for middle-click paste, and the \"hold...",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.161",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.161",
+    "explained_at": "2026-06-03T17:30:05.443317+00:00",
+    "telegram_message_id": null
+  },
+  "c5180a4c8317c9e4": {
+    "title": "Renamed the dynamic-workflow trigger keyword from `workflow` to `ultracode`",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.160",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.160",
+    "explained_at": "2026-06-03T17:30:05.443345+00:00",
+    "telegram_message_id": null
+  },
+  "c665f306a50dd967": {
+    "title": "Improved the auto-mode classifier's detection of data exfiltration, particularly bulk transfers of repository contents",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.154",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.154",
+    "explained_at": "2026-06-03T17:30:05.443435+00:00",
+    "telegram_message_id": null
+  },
+  "c6fba5e31a01b8a2": {
+    "title": "Windows: when the PowerShell tool is enabled, Claude now treats PowerShell as the primary shell instead of defaulting to Bash",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.126",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.126",
+    "explained_at": "2026-06-03T17:30:05.443892+00:00",
+    "telegram_message_id": null
+  },
+  "c7d1f2c252ca62c5": {
+    "title": "Added `/goal` command: set a completion condition and Claude keeps working across turns until it's met",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.139",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.139",
+    "explained_at": "2026-06-03T17:30:05.443737+00:00",
+    "telegram_message_id": null
+  },
+  "c83395af6d75f19f": {
+    "title": "claude agents`: type `! <command>` to run a shell command as a background session you can attach to and detach from",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.154",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.154",
+    "explained_at": "2026-06-03T17:30:05.443408+00:00",
+    "telegram_message_id": null
+  },
+  "c9842b53eded81bc": {
+    "title": "Claude Code now switches to your configured `--fallback-model` for the rest of the session when the primary model is not found, instead of failing every request",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.152",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.152",
+    "explained_at": "2026-06-03T17:30:05.443493+00:00",
+    "telegram_message_id": null
+  },
+  "c9ca35bb712f1e37": {
+    "title": "claude agents` rows now show `done/total` before the detail when work is fanned out; peek shows the longest-running item",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.161",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.161",
+    "explained_at": "2026-06-03T17:30:05.443301+00:00",
+    "telegram_message_id": null
+  },
+  "ca7c2f535db3195d": {
+    "title": "Skills and slash commands can now set `disallowed-tools` in frontmatter to remove tools from the model while the skill is active",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.152",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.152",
+    "explained_at": "2026-06-03T17:30:05.443476+00:00",
+    "telegram_message_id": null
+  },
+  "cbbc4b46d91fda41": {
+    "title": "October 15, 2025",
+    "source": "https://docs.claude.com/en/release-notes/overview",
+    "url": "https://docs.claude.com/en/release-notes/overview",
+    "explained_at": "2026-06-03T17:29:52.418390+00:00",
+    "telegram_message_id": null
+  },
+  "ce0238bddbc0e1fe": {
+    "title": "Improved the Read tool to return a truncated first page with a \"PARTIAL view\" notice instead of a hard error when a whole-file read exceeds the token limit",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.145",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.145",
+    "explained_at": "2026-06-03T17:30:05.443574+00:00",
+    "telegram_message_id": null
+  },
+  "ce2026bcc2816853": {
+    "title": "/context all` per-skill token estimates now account for the model's tokenizer and show rounded values",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.139",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.139",
+    "explained_at": "2026-06-03T17:30:05.443759+00:00",
+    "telegram_message_id": null
+  },
+  "ce537f3dd1a5d1f0": {
+    "title": "The `/model` picker now lists models from your gateway's `/v1/models` endpoint when `ANTHROPIC_BASE_URL` points at an Anthropic-compatible gateway",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.126",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.126",
+    "explained_at": "2026-06-03T17:30:05.443873+00:00",
+    "telegram_message_id": null
+  },
+  "cf9a7317e85bb660": {
+    "title": "The `/plugin` browse and discover panes now show when a plugin was last updated",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.144",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.144",
+    "explained_at": "2026-06-03T17:30:05.443582+00:00",
+    "telegram_message_id": null
+  },
+  "d0e0c540f607ee19": {
+    "title": "Added a \"Pasting…\" footer hint while a Ctrl+V image paste is being read from the clipboard",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.132",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.132",
+    "explained_at": "2026-06-03T17:30:05.443815+00:00",
+    "telegram_message_id": null
+  },
+  "d1bf3e63c1161f15": {
+    "title": "Added `claude plugin details <name>` to show a plugin's component inventory and projected per-session token cost",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.139",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.139",
+    "explained_at": "2026-06-03T17:30:05.443742+00:00",
+    "telegram_message_id": null
+  },
+  "d306d56b007c0204": {
+    "title": "September 3, 2025",
+    "source": "https://docs.claude.com/en/release-notes/overview",
+    "url": "https://docs.claude.com/en/release-notes/overview",
+    "explained_at": "2026-06-03T17:29:52.418413+00:00",
+    "telegram_message_id": null
+  },
+  "d308f517d70e65b2": {
+    "title": "August 22nd, 2024",
+    "source": "https://docs.claude.com/en/release-notes/overview",
+    "url": "https://docs.claude.com/en/release-notes/overview",
+    "explained_at": "2026-06-03T17:29:52.418500+00:00",
+    "telegram_message_id": null
+  },
+  "d33d982cf17b728c": {
+    "title": "Policy refusal error messages now include the API Request ID for easier support debugging",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.129",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.129",
+    "explained_at": "2026-06-03T17:30:05.443840+00:00",
+    "telegram_message_id": null
+  },
+  "d4723a521b41b1a5": {
+    "title": "October 3rd, 2024",
+    "source": "https://docs.claude.com/en/release-notes/overview",
+    "url": "https://docs.claude.com/en/release-notes/overview",
+    "explained_at": "2026-06-03T17:29:52.418492+00:00",
+    "telegram_message_id": null
+  },
+  "d5c31c9b05a728a2": {
+    "title": "August 14th, 2024",
+    "source": "https://docs.claude.com/en/release-notes/overview",
+    "url": "https://docs.claude.com/en/release-notes/overview",
+    "explained_at": "2026-06-03T17:29:52.418505+00:00",
+    "telegram_message_id": null
+  },
+  "d631579b402aeb9c": {
+    "title": "Resumed sessions now keep the model they were using instead of picking up another session's `/model` choice",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.144",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.144",
+    "explained_at": "2026-06-03T17:30:05.443595+00:00",
+    "telegram_message_id": null
+  },
+  "d6ecaa7f1c9dcca0": {
+    "title": "Terms and policies",
+    "source": "https://docs.claude.com/en/release-notes/overview",
+    "url": "https://docs.claude.com/en/release-notes/overview",
+    "explained_at": "2026-06-03T17:29:52.418327+00:00",
+    "telegram_message_id": null
+  },
+  "d7aedb7975715901": {
+    "title": "September 17, 2025",
+    "source": "https://docs.claude.com/en/release-notes/overview",
+    "url": "https://docs.claude.com/en/release-notes/overview",
+    "explained_at": "2026-06-03T17:29:52.418396+00:00",
+    "telegram_message_id": null
+  },
+  "d97e627f85afa349": {
+    "title": "Improved spinner feedback during long thinking periods — the spinner now warms to amber after 10 seconds to signal Claude is still working",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.141",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.141",
+    "explained_at": "2026-06-03T17:30:05.443707+00:00",
+    "telegram_message_id": null
+  },
+  "d9db26eb6376d5c7": {
+    "title": "Fixed: on Windows, pressing ← in `claude agents` while a response was streaming could leave the agents list unresponsive to all input",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.143",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.143",
+    "explained_at": "2026-06-03T17:30:05.443657+00:00",
+    "telegram_message_id": null
+  },
+  "d9e6d5496212e212": {
+    "title": "strict-mcp-config` no longer strips inline `mcpServers` from explicitly-passed agent definitions (`--agents` / SDK `agents`), and blocked subagent MCP servers now surface a...",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.153",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.153",
+    "explained_at": "2026-06-03T17:30:05.443462+00:00",
+    "telegram_message_id": null
+  },
+  "d9fc11c2286223f2": {
+    "title": "VSCode] Fixed in-chat mic showing no feedback when the microphone produced only silence — now shows \"No audio detected\"",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.141",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.141",
+    "explained_at": "2026-06-03T17:30:05.443714+00:00",
+    "telegram_message_id": null
+  },
+  "dbb7b6cddd4e3601": {
+    "title": "claude agents`: slash-command autocomplete in the dispatch input now matches substrings",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.157",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.157",
+    "explained_at": "2026-06-03T17:30:05.443374+00:00",
+    "telegram_message_id": null
+  },
+  "dc8e76a6e4aef29b": {
+    "title": "/mcp` Reconnect now picks up `.mcp.json` edits without a restart, and shows the HTTP status and URL when reconnecting fails",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.139",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.139",
+    "explained_at": "2026-06-03T17:30:05.443757+00:00",
+    "telegram_message_id": null
+  },
+  "dd7f99b53ff1e878": {
+    "title": "September 9, 2025",
+    "source": "https://docs.claude.com/en/release-notes/claude-apps",
+    "url": "https://docs.claude.com/en/release-notes/claude-apps",
+    "explained_at": "2026-06-03T17:29:52.418562+00:00",
+    "telegram_message_id": null
+  },
+  "dd85c3bc92694539": {
+    "title": "MCP stdio servers now receive `CLAUDE_PROJECT_DIR` in their environment, matching hooks",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.139",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.139",
+    "explained_at": "2026-06-03T17:30:05.443751+00:00",
+    "telegram_message_id": null
+  },
+  "dd9fec86ccea8328": {
+    "title": "claude agents`: `/logout` now signs you out instead of being sent to a background session",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.154",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.154",
+    "explained_at": "2026-06-03T17:30:05.443411+00:00",
+    "telegram_message_id": null
+  },
+  "ddbc3784af897957": {
+    "title": "August 11, 2025",
+    "source": "https://docs.claude.com/en/release-notes/overview",
+    "url": "https://docs.claude.com/en/release-notes/overview",
+    "explained_at": "2026-06-03T17:29:52.418434+00:00",
+    "telegram_message_id": null
+  },
+  "de2f678904882572": {
+    "title": "September 5, 2025",
+    "source": "https://docs.claude.com/en/release-notes/overview",
+    "url": "https://docs.claude.com/en/release-notes/overview",
+    "explained_at": "2026-06-03T17:29:52.418409+00:00",
+    "telegram_message_id": null
+  },
+  "df8d421aa10d182e": {
+    "title": "Removed the JetBrains plugin install suggestion from startup",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.160",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.160",
+    "explained_at": "2026-06-03T17:30:05.443342+00:00",
+    "telegram_message_id": null
+  },
+  "dffe14536e4ffe2d": {
+    "title": "Read tool: removed the per-file malware-assessment reminder that could cause spurious refusals and \"this is not malware\" commentary on legacy models",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.126",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.126",
+    "explained_at": "2026-06-03T17:30:05.443894+00:00",
+    "telegram_message_id": null
+  },
+  "e11caeacec9fc51e": {
+    "title": "February 5, 2026",
+    "source": "https://docs.claude.com/en/release-notes/overview",
+    "url": "https://docs.claude.com/en/release-notes/overview",
+    "explained_at": "2026-06-03T17:29:52.418348+00:00",
+    "telegram_message_id": null
+  },
+  "e26e3d35f190ac8f": {
+    "title": "June 27th, 2024",
+    "source": "https://docs.claude.com/en/release-notes/overview",
+    "url": "https://docs.claude.com/en/release-notes/overview",
+    "explained_at": "2026-06-03T17:29:52.418511+00:00",
+    "telegram_message_id": null
+  },
+  "e2dc736ecd9008ab": {
+    "title": "October 28, 2025",
+    "source": "https://docs.claude.com/en/release-notes/overview",
+    "url": "https://docs.claude.com/en/release-notes/overview",
+    "explained_at": "2026-06-03T17:29:52.418384+00:00",
+    "telegram_message_id": null
+  },
+  "e3e500491c374604": {
+    "title": "Help and security",
+    "source": "https://docs.claude.com/en/release-notes/overview",
+    "url": "https://docs.claude.com/en/release-notes/overview",
+    "explained_at": "2026-06-03T17:29:52.418291+00:00",
+    "telegram_message_id": null
+  },
+  "e48ddd22772bc154": {
+    "title": "September 2, 2025",
+    "source": "https://docs.claude.com/en/release-notes/overview",
+    "url": "https://docs.claude.com/en/release-notes/overview",
+    "explained_at": "2026-06-03T17:29:52.418416+00:00",
+    "telegram_message_id": null
+  },
+  "e4e6442ee0f600ed": {
+    "title": "January 5, 2026",
+    "source": "https://docs.claude.com/en/release-notes/overview",
+    "url": "https://docs.claude.com/en/release-notes/overview",
+    "explained_at": "2026-06-03T17:29:52.418358+00:00",
+    "telegram_message_id": null
+  },
+  "e7b7f612ffdb0fe4": {
+    "title": "claude agents`: launching a session no longer fails when the pre-warmed background worker is unhealthy — now falls back to a fresh launch",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.141",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.141",
+    "explained_at": "2026-06-03T17:30:05.443719+00:00",
+    "telegram_message_id": null
+  },
+  "e800f12591c6f4b2": {
+    "title": "Added `worktree.bgIsolation: \"none\"` setting to let background sessions edit the working copy directly without `EnterWorktree`, for repos where worktrees are impractical",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.143",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.143",
+    "explained_at": "2026-06-03T17:30:05.443630+00:00",
+    "telegram_message_id": null
+  },
+  "ea28e2ad0ea45c92": {
+    "title": "Prompt history no longer records consecutive duplicate entries — recalling a prompt with arrow-up and submitting it again won't add another copy",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.147",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.147",
+    "explained_at": "2026-06-03T17:30:05.443539+00:00",
+    "telegram_message_id": null
+  },
+  "eaad3041b0ecf8bb": {
+    "title": "Added autocomplete for `/plugin` arguments: subcommands, installed plugin names, and plugins from known marketplaces",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.157",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.157",
+    "explained_at": "2026-06-03T17:30:05.443353+00:00",
+    "telegram_message_id": null
+  },
+  "eb09ef9f4cf7a4d3": {
+    "title": "June 20th, 2024",
+    "source": "https://docs.claude.com/en/release-notes/overview",
+    "url": "https://docs.claude.com/en/release-notes/overview",
+    "explained_at": "2026-06-03T17:29:52.418513+00:00",
+    "telegram_message_id": null
+  },
+  "eb0e7b44bd870bae": {
+    "title": "VSCode] Fixed extension failing to activate on Windows",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.137",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.137",
+    "explained_at": "2026-06-03T17:30:05.443777+00:00",
+    "telegram_message_id": null
+  },
+  "eb0f6ad86b2c7a18": {
+    "title": "PowerShell tool: bare `--` (e.g",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.126",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.126",
+    "explained_at": "2026-06-03T17:30:05.443902+00:00",
+    "telegram_message_id": null
+  },
+  "ebad114314214a47": {
+    "title": "January 10th, 2025",
+    "source": "https://docs.claude.com/en/release-notes/overview",
+    "url": "https://docs.claude.com/en/release-notes/overview",
+    "explained_at": "2026-06-03T17:29:52.418461+00:00",
+    "telegram_message_id": null
+  },
+  "ec070ab149bc138f": {
+    "title": "November 21st, 2024",
+    "source": "https://docs.claude.com/en/release-notes/overview",
+    "url": "https://docs.claude.com/en/release-notes/overview",
+    "explained_at": "2026-06-03T17:29:52.418471+00:00",
+    "telegram_message_id": null
+  },
+  "ec2e8e018c6ca663": {
+    "title": "Added `CLAUDE_CODE_PACKAGE_MANAGER_AUTO_UPDATE`: when set on Homebrew or WinGet installations, Claude Code runs the upgrade command in the background and prompts to restart",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.129",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.129",
+    "explained_at": "2026-06-03T17:30:05.443825+00:00",
+    "telegram_message_id": null
+  },
+  "ecd6cc929d7db6fb": {
+    "title": "February 27th, 2025",
+    "source": "https://docs.claude.com/en/release-notes/overview",
+    "url": "https://docs.claude.com/en/release-notes/overview",
+    "explained_at": "2026-06-03T17:29:52.418442+00:00",
+    "telegram_message_id": null
+  },
+  "f01e27bc4d134f4f": {
+    "title": "Updated agent color palette",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.140",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.140",
+    "explained_at": "2026-06-03T17:30:05.443730+00:00",
+    "telegram_message_id": null
+  },
+  "f025286de89cd2ca": {
+    "title": "The Feature of the Week credit-claim status now appears as a notification in the status area instead of a line above the prompt",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.157",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.157",
+    "explained_at": "2026-06-03T17:30:05.443372+00:00",
+    "telegram_message_id": null
+  },
+  "f08626332d48053b": {
+    "title": "September 10, 2025",
+    "source": "https://docs.claude.com/en/release-notes/overview",
+    "url": "https://docs.claude.com/en/release-notes/overview",
+    "explained_at": "2026-06-03T17:29:52.418403+00:00",
+    "telegram_message_id": null
+  },
+  "f12d662f25c2859a": {
+    "title": "PowerShell tool now passes `-ExecutionPolicy Bypass`",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.143",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.143",
+    "explained_at": "2026-06-03T17:30:05.443633+00:00",
+    "telegram_message_id": null
+  },
+  "f1f4d13f1e162284": {
+    "title": "Improved error message when `--worktree` collides with an existing or stale worktree",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.136",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.136",
+    "explained_at": "2026-06-03T17:30:05.443788+00:00",
+    "telegram_message_id": null
+  },
+  "f2373d268f49f18f": {
+    "title": "VSCode] Fixed `/clear` not clearing the conversation context and displayed transcript",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.129",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.129",
+    "explained_at": "2026-06-03T17:30:05.443842+00:00",
+    "telegram_message_id": null
+  },
+  "f2db6a87b1eaab2a": {
+    "title": "claude auth login` now accepts the OAuth code pasted into the terminal when the browser callback can't reach localhost (WSL2, SSH, containers)",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.126",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.126",
+    "explained_at": "2026-06-03T17:30:05.443880+00:00",
+    "telegram_message_id": null
+  },
+  "f3d288c2844f5a66": {
+    "title": "Claude Agent SDK Launch",
+    "source": "claude-probe",
+    "url": "",
+    "explained_at": "2026-06-03T17:32:29.251882+00:00",
+    "telegram_message_id": 1306
+  },
+  "f53bfb888c4de948": {
+    "title": "Added `worktree.baseRef` setting (`fresh` | `head`) to choose whether `--worktree`, `EnterWorktree`, and agent-isolation worktrees branch from `origin/<default>` or local `HEAD`",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.133",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.133",
+    "explained_at": "2026-06-03T17:30:05.443793+00:00",
+    "telegram_message_id": null
+  },
+  "f5528dc599b6151b": {
+    "title": "Claude Opus 4.5 Model Launch",
+    "source": "claude-probe",
+    "url": "",
+    "explained_at": "2026-06-03T17:33:21.651285+00:00",
+    "telegram_message_id": 1308
+  },
+  "f55396686e6370f8": {
+    "title": "Fast mode now uses Opus 4.7 by default (previously Opus 4.6)",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.142",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.142",
+    "explained_at": "2026-06-03T17:30:05.443666+00:00",
+    "telegram_message_id": null
+  },
+  "f5bbd348aed5a05b": {
+    "title": "/simplify` now runs a cleanup-only review (reuse, simplification, efficiency, altitude) and applies the fixes, instead of running the full `/code-review --fix` bug-hunting review",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.154",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.154",
+    "explained_at": "2026-06-03T17:30:05.443404+00:00",
+    "telegram_message_id": null
+  },
+  "f618b537a3942ad1": {
+    "title": "claude agents` / `--bg` rejection messages now name the specific gate (non-TTY, env var, or setting) instead of a generic message",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.144",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.144",
+    "explained_at": "2026-06-03T17:30:05.443600+00:00",
+    "telegram_message_id": null
+  },
+  "f63b86fa322e5218": {
+    "title": "/bg` and `←`-detach now preserve directories added via `/add-dir`",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.144",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.144",
+    "explained_at": "2026-06-03T17:30:05.443598+00:00",
+    "telegram_message_id": null
+  },
+  "f69f656bda636479": {
+    "title": "Improved auto mode classifier latency by reducing reasoning on routine actions, lowering the chance of \"could not evaluate this action\" blocks",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.160",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.160",
+    "explained_at": "2026-06-03T17:30:05.443335+00:00",
+    "telegram_message_id": null
+  },
+  "f6a315c5c4f718fa": {
+    "title": "File metadata and controls",
+    "source": "https://docs.claude.com/en/release-notes/claude-code",
+    "url": "https://docs.claude.com/en/release-notes/claude-code",
+    "explained_at": "2026-06-03T17:29:52.418525+00:00",
+    "telegram_message_id": null
+  },
+  "f80ea3596a1829b2": {
+    "title": "Introducing dynamic workflows: ask Claude to create a workflow and it orchestrates work across tens to hundreds of agents in the background, so you can take on larger, more...",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.154",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.154",
+    "explained_at": "2026-06-03T17:30:05.443393+00:00",
+    "telegram_message_id": null
+  },
+  "f8a5b71ee426e1fe": {
+    "title": "Removed the \"/ide for …\" startup hint toast",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.157",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.157",
+    "explained_at": "2026-06-03T17:30:05.443379+00:00",
+    "telegram_message_id": null
+  },
+  "f98869534baed3c9": {
+    "title": "macOS: background agents now appear as \"Claude Code\" in Privacy & Security and keep their permission grants across upgrades",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.153",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.153",
+    "explained_at": "2026-06-03T17:30:05.443460+00:00",
+    "telegram_message_id": null
+  },
+  "fa27555aace79e1b": {
+    "title": "/model` now changes the model for the current session only; press `d` in the model picker to set a default for new sessions",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.144",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.144",
+    "explained_at": "2026-06-03T17:30:05.443584+00:00",
+    "telegram_message_id": null
+  },
+  "fd9c8329b968ce9f": {
+    "title": "Windows: clipboard writes no longer expose copied content in process command-line arguments visible to EDR/SIEM telemetry; also fixes >22KB selections not reaching the clipboard",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.126",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.126",
+    "explained_at": "2026-06-03T17:30:05.443899+00:00",
+    "telegram_message_id": null
+  },
+  "fe5e85c1569c835e": {
+    "title": "Use saved searches to filter your results more quickly",
+    "source": "https://docs.claude.com/en/release-notes/claude-code",
+    "url": "https://docs.claude.com/en/release-notes/claude-code",
+    "explained_at": "2026-06-03T17:29:52.418519+00:00",
+    "telegram_message_id": null
+  },
+  "feb56e25a7186765": {
+    "title": "claude agents` now accepts `--add-dir`, `--settings`, `--mcp-config`, and `--plugin-dir` and applies them to the dashboard and to background sessions dispatched from it",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.143",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.143",
+    "explained_at": "2026-06-03T17:30:05.443643+00:00",
+    "telegram_message_id": null
+  },
+  "ff7fe2542576e738": {
+    "title": "Edit no longer requires a separate Read after viewing a file with `grep`: single-file `grep`/`egrep`/`fgrep` commands now satisfy the read-before-edit check",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.160",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.160",
+    "explained_at": "2026-06-03T17:30:05.443331+00:00",
+    "telegram_message_id": null
   }
 }
