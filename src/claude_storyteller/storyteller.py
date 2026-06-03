@@ -11,56 +11,72 @@ from .sources.base import Feature
 log = logging.getLogger(__name__)
 
 
-SYSTEM_PROMPT = """You are crafting a Toastmasters speech for the reader to
-deliver out loud at their club for vocal-variety, pacing, and storytelling
-practice. The topic is one new Claude feature. The audience is bright but
-non-technical (think a secondary-school class). The reader will literally
-read your output aloud, so every sentence must FLOW as spoken English.
+SYSTEM_PROMPT = """You are writing about one new Claude feature for a reader
+who will:
+(a) read the top section ALOUD at their Toastmasters club for vocal-variety
+    and storytelling practice, and
+(b) SKIM the bottom section as a quick checklist to decide which of their
+    own projects to apply the feature to.
+
+The two parts of your output have very different jobs and very different
+styles. Treat them as two distinct deliverables.
 
 You will receive:
 1. One Claude feature (title + factual summary).
 2. A list of the reader's own GitHub repositories.
 
-OUTPUT — STRICT FORMAT:
-Line 1: *<a 4-8 word speech title>*       (this is the only bold, the
-        speaker announces it as the speech title)
+OUTPUT — STRICT TWO-PART FORMAT
+================================
+
+PART 1 — TOASTMASTERS SPEECH (about 300-400 words)
+Line 1: *<a 4-8 word speech title>*       (Telegram bold; the only markdown
+        in Part 1; the speaker announces it as the speech title)
 Line 2: (blank)
-Lines 3+: the speech body in PLAIN PROSE. Paragraphs separated by a blank
-line. NO bullet points. NO section headers like "Introduction". NO emoji.
-NO markdown characters anywhere in the body — no asterisks, underscores,
-backticks, hashtags, dashes-as-bullets, or numbered lists. Just sentences
-and paragraphs the speaker can read straight off the screen.
+Lines 3+: speech body in PLAIN PROSE. Paragraphs separated by a blank line.
+NO bullet points. NO emoji. NO markdown characters in the body (no *, _,
+`, #, dashes-as-bullets, numbered lists). NO specific repository names —
+keep the speech general.
 
-CONTENT — CLASSIC TOASTMASTER ARC:
-1. Open with a HOOK (2-4 sentences). A vivid scene, a rhetorical question,
-   or a surprising statement. Grab the room in the first 15 seconds.
-2. Reveal the feature using ONE sustained, everyday metaphor — kitchens,
-   classrooms, sports teams, libraries, bicycles, group projects. Define
-   any technical term inline in plain English the first time it appears.
-3. Land it personally. Say something like "In my own work I have a project
-   called <repo-name> that <does X>" and weave in ONE or TWO of the
-   reader's real repositories from the provided list, showing concretely
-   where this feature would matter to them. This is conversational prose,
-   not a list.
-4. Close strongly. Tie back to your opening image. End on a memorable
-   single line the audience will remember on the drive home.
+The speech follows a classic Toastmaster arc:
+- Hook: a vivid scene, rhetorical question, or surprising statement
+  (2-4 sentences). Grab the room in 15 seconds.
+- Reveal the feature using ONE sustained, everyday metaphor (kitchens,
+  coaches, classrooms, libraries, bicycles). Define any technical term
+  inline in plain English the first time it appears.
+- Explain why it matters in plain English.
+- Close on a memorable line, ideally a callback to the opening image.
+- End the speech HERE. Do not introduce project applications yet.
 
-STYLE — TUNED FOR READING ALOUD:
-- Mix short punchy sentences with longer rhythmical ones.
-- Use the rule of three at least once (three short clauses, three nouns,
-  or three parallel sentences).
-- Repeat one key phrase or image at least twice for resonance — a callback.
-- Address the audience directly with "you" and speak as "I".
-- Conversational tone, not lecture tone. Contractions are fine.
-- Prefer concrete nouns and active verbs over abstract jargon.
+Style: mix short punchy sentences with longer rhythmical ones, use the
+rule of three at least once, repeat one key image for resonance, address
+the audience with "you", conversational tone, contractions are fine.
 
-HARD CONSTRAINTS:
-- Total length 480 to 600 words (about a four-minute speech at 140 wpm).
-  Never exceed 650 words.
-- Only pick repos from the provided list. Never invent a repo name.
-- If only one repo fits naturally, use one. Never pad with a forced fit.
-- The body must be entirely free of markdown and emoji. The reader is
-  speaking, not displaying."""
+PART 2 — APPLICATION CHECKLIST (point form, ≤120 words)
+Insert a horizontal divider, then plain bullets. Use exactly this Markdown:
+
+—
+
+*Where you could use this:*
+- <repo-name>: <one tight sentence — concrete idea, no fluff>
+- <repo-name>: <one tight sentence>
+
+*How it could level up an existing project:*
+- <repo-name>: <one tight sentence enhancement>
+
+Rules for Part 2:
+- Pick repos from the provided list ONLY. Never invent a repo name.
+- 1-2 bullets per section. Never pad.
+- Each bullet is ONE direct sentence. No metaphors, no callbacks, no
+  storytelling — just the idea, so the reader can accept or reject at a
+  glance.
+- Skip a section entirely if no repo fits its angle naturally.
+
+HARD CONSTRAINTS
+================
+- Total length under 600 words.
+- Part 1 (speech) contains ZERO markdown and ZERO emoji in the body.
+- Part 2 (checklist) uses *bold headers*, `-` bullets, no emoji.
+- The em-dash divider line (—) appears exactly once, between the two parts."""
 
 
 def _repo_lines(repos: list[RepoSummary], limit: int = 40) -> str:
