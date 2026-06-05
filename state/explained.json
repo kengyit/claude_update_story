@@ -13,6 +13,13 @@
     "explained_at": "2026-06-03T17:30:05.443333+00:00",
     "telegram_message_id": null
   },
+  "021762cd1acba160": {
+    "title": "Extended Thinking with Streaming in API",
+    "source": "claude-probe",
+    "url": "",
+    "explained_at": "2026-06-05T22:06:53.241464+00:00",
+    "telegram_message_id": 1341
+  },
   "02c588efb0f8b861": {
     "title": "Startup warnings rewritten to be shorter and clearer, each with a concrete fix",
     "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.162",
@@ -131,6 +138,13 @@
     "url": "https://docs.claude.com/en/release-notes/overview",
     "explained_at": "2026-06-03T17:29:52.418334+00:00",
     "telegram_message_id": null
+  },
+  "0e01a0884456096e": {
+    "title": "Native MCP (Model Context Protocol) Server Support in Claude Code",
+    "source": "claude-probe",
+    "url": "",
+    "explained_at": "2026-06-05T22:08:04.503922+00:00",
+    "telegram_message_id": 1344
   },
   "0f6588824f3b6e33": {
     "title": "Added `terminalSequence` field to hook JSON output so hooks can emit desktop notifications, window titles, and bells without a controlling terminal",
@@ -804,6 +818,13 @@
     "explained_at": "2026-06-03T17:29:52.418431+00:00",
     "telegram_message_id": null
   },
+  "5520c33e5e86d684": {
+    "title": "claude agents --json` now includes `waitingFor` showing what a waiting session is blocked on (e.g",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.162",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.162",
+    "explained_at": "2026-06-05T22:02:54.224481+00:00",
+    "telegram_message_id": 1339
+  },
   "562623c57ea7721d": {
     "title": "Added a `MessageDisplay` hook event that lets hooks transform or hide assistant message text as it is displayed",
     "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.152",
@@ -1160,6 +1181,13 @@
     "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.157",
     "explained_at": "2026-06-03T17:30:05.443368+00:00",
     "telegram_message_id": null
+  },
+  "7a0592e4e9a6e5ce": {
+    "title": "/effort` now confirms when your chosen level will persist as the default for new sessions",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.162",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.162",
+    "explained_at": "2026-06-05T22:03:49.420684+00:00",
+    "telegram_message_id": 1340
   },
   "7a149f891c7ed48e": {
     "title": "Fixed: on Windows, \"Yes, and don't ask again\" for a PowerShell script invocation now writes a rule that actually matches on subsequent runs",
@@ -1637,6 +1665,13 @@
     "explained_at": "2026-06-03T17:30:05.443384+00:00",
     "telegram_message_id": null
   },
+  "a4b4086c70c1f183": {
+    "title": "Files API for Persistent Document Storage",
+    "source": "claude-probe",
+    "url": "",
+    "explained_at": "2026-06-05T22:08:26.928111+00:00",
+    "telegram_message_id": 1345
+  },
   "a4c9d65d337b1ddb": {
     "title": "Updated the `/tui fullscreen` startup banner to describe additional renderer benefits (lower memory usage, mouse support, auto-copy on select)",
     "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.132",
@@ -1839,6 +1874,13 @@
     "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.141",
     "explained_at": "2026-06-03T17:30:05.443697+00:00",
     "telegram_message_id": null
+  },
+  "b4755046ee711327": {
+    "title": "Claude Sonnet 4 Model Launch",
+    "source": "claude-probe",
+    "url": "",
+    "explained_at": "2026-06-05T22:07:39.826340+00:00",
+    "telegram_message_id": 1343
   },
   "b5a6259aa94cf8b5": {
     "title": "Added agent view (Research Preview): a single list of every Claude Code session — running, blocked on you, or done",
@@ -2189,6 +2231,13 @@
     "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.141",
     "explained_at": "2026-06-03T17:30:05.443714+00:00",
     "telegram_message_id": null
+  },
+  "db324e6ea36fab5c": {
+    "title": "Claude Opus 4 Model Launch",
+    "source": "claude-probe",
+    "url": "",
+    "explained_at": "2026-06-05T22:07:15.683808+00:00",
+    "telegram_message_id": 1342
   },
   "dbb7b6cddd4e3601": {
     "title": "claude agents`: slash-command autocomplete in the dispatch input now matches substrings",
