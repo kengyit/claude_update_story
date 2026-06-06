@@ -83,6 +83,13 @@
     "explained_at": "2026-06-03T17:29:52.418466+00:00",
     "telegram_message_id": null
   },
+  "06f59e72d8c31588": {
+    "title": "Native GitHub Actions Integration for Claude Code",
+    "source": "claude-probe",
+    "url": "",
+    "explained_at": "2026-06-06T22:09:07.455636+00:00",
+    "telegram_message_id": 1351
+  },
   "071e919eec436791": {
     "title": "November 6th, 2024",
     "source": "https://docs.claude.com/en/release-notes/overview",
@@ -376,6 +383,13 @@
     "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.145",
     "explained_at": "2026-06-03T17:30:05.443569+00:00",
     "telegram_message_id": null
+  },
+  "27eca27db0dd20eb": {
+    "title": "claude update` now announces the target version before downloading instead of going silent",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.166",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.166",
+    "explained_at": "2026-06-06T22:03:37.830020+00:00",
+    "telegram_message_id": 1350
   },
   "2979487477acdc8b": {
     "title": "Added `skipLfs` option to `github`/`git` plugin marketplace sources to skip Git LFS downloads during clone and update",
@@ -1140,6 +1154,13 @@
     "explained_at": "2026-05-30T15:26:52.571456+00:00",
     "telegram_message_id": 1278
   },
+  "73c5be4c5279736f": {
+    "title": "Files API for Persistent Document Context",
+    "source": "claude-probe",
+    "url": "",
+    "explained_at": "2026-06-06T22:10:18.228415+00:00",
+    "telegram_message_id": 1354
+  },
   "7699f6d065ec3f47": {
     "title": "Failed turns now show a compact warning line instead of a multi-line red error block",
     "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.162",
@@ -1223,6 +1244,13 @@
     "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.139",
     "explained_at": "2026-06-03T17:30:05.443772+00:00",
     "telegram_message_id": null
+  },
+  "7b48925014de2405": {
+    "title": "Claude Apps Projects with Persistent Memory",
+    "source": "claude-probe",
+    "url": "",
+    "explained_at": "2026-06-06T22:11:38.106781+00:00",
+    "telegram_message_id": 1356
   },
   "7c56930041b24910": {
     "title": "Simplified the Workflow tool's inline progress display — live agent counts now show only in the persistent workflow status row below the prompt",
@@ -1602,6 +1630,13 @@
     "explained_at": "2026-06-03T17:30:05.443534+00:00",
     "telegram_message_id": null
   },
+  "9d6cddea653e1fa7": {
+    "title": "Added `fallbackModel` setting to configure up to three fallback models tried in order when the primary model is overloaded or unavailable; `--fallback-model` now also applies to...",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.166",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.166",
+    "explained_at": "2026-06-06T22:01:16.148957+00:00",
+    "telegram_message_id": 1346
+  },
   "9d96b95be5aaeebc": {
     "title": "Auto mode: the spinner now turns red when a permission check stalls, instead of looking like the tool is running",
     "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.126",
@@ -1699,6 +1734,13 @@
     "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.128",
     "explained_at": "2026-06-03T17:30:05.443862+00:00",
     "telegram_message_id": null
+  },
+  "a5a9fea7945851b8": {
+    "title": "Added glob pattern support in deny rule tool-name position (`\"*\"` denies all tools); allow rules reject non-MCP globs, and unknown tool names in deny rules warn at startup",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.166",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.166",
+    "explained_at": "2026-06-06T22:01:40.665164+00:00",
+    "telegram_message_id": 1347
   },
   "a6c493c4d01ff23c": {
     "title": "Claude Code Agent SDK General Availability",
@@ -1798,6 +1840,13 @@
     "explained_at": "2026-06-03T17:29:52.418484+00:00",
     "telegram_message_id": null
   },
+  "ae08f15fcdf2d32c": {
+    "title": "Model Context Protocol (MCP) Native Tool Registry",
+    "source": "claude-probe",
+    "url": "",
+    "explained_at": "2026-06-06T22:10:41.165240+00:00",
+    "telegram_message_id": 1355
+  },
   "af24b3ed862141b4": {
     "title": "Quieter startup: notices group by severity, and session info and announcements share a single line per launch",
     "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.162",
@@ -1895,6 +1944,13 @@
     "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.143",
     "explained_at": "2026-06-03T17:30:05.443654+00:00",
     "telegram_message_id": null
+  },
+  "b61bd4f218242207": {
+    "title": "Claude 4 Model Family Launch",
+    "source": "claude-probe",
+    "url": "",
+    "explained_at": "2026-06-06T22:09:30.091598+00:00",
+    "telegram_message_id": 1352
   },
   "b65b54d30fa5833f": {
     "title": "Launch-prompt warnings (deep link/pre-filled prompt) now stay pinned below the input until you act instead of scrolling away",
@@ -2232,6 +2288,13 @@
     "explained_at": "2026-06-03T17:30:05.443714+00:00",
     "telegram_message_id": null
   },
+  "dabf374853db04a1": {
+    "title": "Hardened cross-session messaging: messages relayed via `SendMessage` from other Claude sessions no longer carry user authority — receivers refuse relayed permission requests, and...",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.166",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.166",
+    "explained_at": "2026-06-06T22:02:13.041856+00:00",
+    "telegram_message_id": 1348
+  },
   "db324e6ea36fab5c": {
     "title": "Claude Opus 4 Model Launch",
     "source": "claude-probe",
@@ -2308,6 +2371,13 @@
     "url": "https://docs.claude.com/en/release-notes/overview",
     "explained_at": "2026-06-03T17:29:52.418348+00:00",
     "telegram_message_id": null
+  },
+  "e147dee221f392bb": {
+    "title": "MAX_THINKING_TOKENS=0`, `--thinking disabled`, and the per-model thinking toggle now disable thinking on models that think by default via the Claude API (3P providers unchanged)",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.166",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.166",
+    "explained_at": "2026-06-06T22:02:35.683800+00:00",
+    "telegram_message_id": 1349
   },
   "e26e3d35f190ac8f": {
     "title": "June 27th, 2024",
@@ -2427,6 +2497,13 @@
     "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.129",
     "explained_at": "2026-06-03T17:30:05.443825+00:00",
     "telegram_message_id": null
+  },
+  "ecb1b6af67098ca6": {
+    "title": "Extended Thinking with Streaming for API",
+    "source": "claude-probe",
+    "url": "",
+    "explained_at": "2026-06-06T22:09:53.535590+00:00",
+    "telegram_message_id": 1353
   },
   "ecd6cc929d7db6fb": {
     "title": "February 27th, 2025",
