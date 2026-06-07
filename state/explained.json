@@ -83,6 +83,13 @@
     "explained_at": "2026-06-03T17:29:52.418466+00:00",
     "telegram_message_id": null
   },
+  "06ad4d408bdcdc80": {
+    "title": "Projects with Long-Term Context Windows in Claude Apps",
+    "source": "claude-probe",
+    "url": "",
+    "explained_at": "2026-06-07T22:10:20.463020+00:00",
+    "telegram_message_id": 1363
+  },
   "06f59e72d8c31588": {
     "title": "Native GitHub Actions Integration for Claude Code",
     "source": "claude-probe",
@@ -916,6 +923,13 @@
     "explained_at": "2026-06-03T17:30:05.443829+00:00",
     "telegram_message_id": null
   },
+  "5d7357f1d4fbd715": {
+    "title": "Tool Use Streaming and Incremental Results in the API",
+    "source": "claude-probe",
+    "url": "",
+    "explained_at": "2026-06-07T22:08:59.698483+00:00",
+    "telegram_message_id": 1361
+  },
   "5e4e300c95ea91f4": {
     "title": "Added `CLAUDE_CODE_FORCE_SYNC_OUTPUT=1` env var to force-enable synchronized output on terminals that auto-detection misses (e.g",
     "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.129",
@@ -1280,6 +1294,13 @@
     "explained_at": "2026-06-03T17:40:07.772268+00:00",
     "telegram_message_id": 1315
   },
+  "7eba3b7d303f9c44": {
+    "title": "Persistent Agent Memory via the Agent SDK",
+    "source": "claude-probe",
+    "url": "",
+    "explained_at": "2026-06-07T22:06:35.184207+00:00",
+    "telegram_message_id": 1359
+  },
   "7ebee0f6c5a53a7b": {
     "title": "Improved memory usage by releasing warm-spare background workers under memory pressure",
     "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.133",
@@ -1476,6 +1497,13 @@
     "explained_at": "2026-06-03T17:30:05.443552+00:00",
     "telegram_message_id": null
   },
+  "91388401ecc5a573": {
+    "title": "claude agents`: typing a URL into the list now filters to the session whose first prompt contained it",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.166",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.166",
+    "explained_at": "2026-06-07T22:01:55.283022+00:00",
+    "telegram_message_id": 1357
+  },
   "913f26f7f33ec5c0": {
     "title": "Improved visual consistency across slash command dialogs: standardized footer hints, dialog spacing, and arrow-key styling, and the dialog frame now appears immediately during...",
     "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.136",
@@ -1608,6 +1636,13 @@
     "url": "https://docs.claude.com/en/release-notes/claude-apps",
     "explained_at": "2026-06-03T17:29:52.418545+00:00",
     "telegram_message_id": null
+  },
+  "9c05e1713ae9d701": {
+    "title": "Native Multi-Agent Orchestration API",
+    "source": "claude-probe",
+    "url": "",
+    "explained_at": "2026-06-07T22:06:58.122131+00:00",
+    "telegram_message_id": 1360
   },
   "9c159ce410026c2e": {
     "title": "October 8th, 2024",
@@ -1867,6 +1902,13 @@
     "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.144",
     "explained_at": "2026-06-03T17:30:05.443616+00:00",
     "telegram_message_id": null
+  },
+  "b033abdfd709727e": {
+    "title": "Operator-Defined Agent Personas via the API",
+    "source": "claude-probe",
+    "url": "",
+    "explained_at": "2026-06-07T22:10:44.322869+00:00",
+    "telegram_message_id": 1364
   },
   "b038696eaf8ffeba": {
     "title": "acceptEdits` mode now prompts before writing build-tool config files that grant code execution (`.npmrc`, `.yarnrc*`, `bunfig.toml`, `.bazelrc`, `.pre-commit-config.yaml`...",
@@ -2148,12 +2190,26 @@
     "explained_at": "2026-06-03T17:30:05.443301+00:00",
     "telegram_message_id": null
   },
+  "ca6620748b62f34b": {
+    "title": "Vision and Multimodal Input in Claude Agent SDK",
+    "source": "claude-probe",
+    "url": "",
+    "explained_at": "2026-06-07T22:09:56.208228+00:00",
+    "telegram_message_id": 1362
+  },
   "ca7c2f535db3195d": {
     "title": "Skills and slash commands can now set `disallowed-tools` in frontmatter to remove tools from the model while the skill is active",
     "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.152",
     "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.152",
     "explained_at": "2026-06-03T17:30:05.443476+00:00",
     "telegram_message_id": null
+  },
+  "cb1d27629aefed7c": {
+    "title": "Remote Control now shows as a persistent footer pill (with a link to the session) instead of a startup message",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.162",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.162",
+    "explained_at": "2026-06-07T22:05:02.902804+00:00",
+    "telegram_message_id": 1358
   },
   "cbbc4b46d91fda41": {
     "title": "October 15, 2025",
