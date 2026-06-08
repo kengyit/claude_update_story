@@ -118,6 +118,13 @@
     "explained_at": "2026-06-03T17:30:05.443835+00:00",
     "telegram_message_id": null
   },
+  "093576c2a5bc6fbc": {
+    "title": "Claude for Desktop Deep OS Integration (File System & App Control)",
+    "source": "claude-probe",
+    "url": "",
+    "explained_at": "2026-06-08T22:16:31.845697+00:00",
+    "telegram_message_id": 1374
+  },
   "0982d81ee4379c6a": {
     "title": "January 16, 2026",
     "source": "https://docs.claude.com/en/release-notes/claude-apps",
@@ -131,6 +138,13 @@
     "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.141",
     "explained_at": "2026-06-03T17:30:05.443724+00:00",
     "telegram_message_id": null
+  },
+  "0c520e1a088d08e6": {
+    "title": "Claude Code in GitHub Actions (CI/CD Integration)",
+    "source": "claude-probe",
+    "url": "",
+    "explained_at": "2026-06-08T22:14:35.924539+00:00",
+    "telegram_message_id": 1373
   },
   "0d1a9213785168ba": {
     "title": "/feedback` can now include recent sessions (last 24 hours or 7 days) for issues spanning more than the current session",
@@ -209,6 +223,13 @@
     "explained_at": "2026-06-03T17:29:52.418381+00:00",
     "telegram_message_id": null
   },
+  "125b636c2a4656df": {
+    "title": "Auto-updater on Windows now stops retrying within a session once `claude.exe` is held by another process",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.169",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.169",
+    "explained_at": "2026-06-08T22:07:25.515646+00:00",
+    "telegram_message_id": 1370
+  },
   "138e25d517432847": {
     "title": "Added hook `args: string[]` field (exec form) that spawns the command directly without a shell, so path placeholders never need quoting",
     "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.139",
@@ -243,6 +264,13 @@
     "url": "https://docs.claude.com/en/release-notes/overview",
     "explained_at": "2026-06-03T17:29:52.418400+00:00",
     "telegram_message_id": null
+  },
+  "15abd57742a46ddb": {
+    "title": "Restored a default 5-minute idle timeout on Vertex/Foundry so a stalled stream aborts instead of hanging indefinitely; set `API_FORCE_IDLE_TIMEOUT=0` to opt out",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.169",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.169",
+    "explained_at": "2026-06-08T22:04:40.784673+00:00",
+    "telegram_message_id": 1368
   },
   "16933e3b9b9d5082": {
     "title": "November 18, 2025",
@@ -342,6 +370,13 @@
     "explained_at": "2026-06-03T17:29:52.418406+00:00",
     "telegram_message_id": null
   },
+  "1fefbfcd2be0d645": {
+    "title": "Real-Time Streaming Tool Results in the API",
+    "source": "claude-probe",
+    "url": "",
+    "explained_at": "2026-06-08T22:17:54.277144+00:00",
+    "telegram_message_id": 1376
+  },
   "20edf978f93fdc96": {
     "title": "EnterWorktree` now creates the new branch from local HEAD as documented, instead of `origin/<default-branch>` — unpushed commits are no longer dropped",
     "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.128",
@@ -362,6 +397,13 @@
     "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.132",
     "explained_at": "2026-06-03T17:30:05.443812+00:00",
     "telegram_message_id": null
+  },
+  "26457e72f3a9d9bd": {
+    "title": "Improved the error message shown when your organization has disabled API key authentication, with guidance based on where the active API key comes from",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.169",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.169",
+    "explained_at": "2026-06-08T22:03:52.197224+00:00",
+    "telegram_message_id": 1366
   },
   "271ed5b05eb605b9": {
     "title": "VSCode] Voice mode: the WSL error now suggests installing `sox libsox-fmt-pulse` for WSLg users",
@@ -566,6 +608,13 @@
     "explained_at": "2026-06-03T17:30:05.443429+00:00",
     "telegram_message_id": null
   },
+  "365575afb72f3413": {
+    "title": "Native Memory and Persistent Context in Claude Code",
+    "source": "claude-probe",
+    "url": "",
+    "explained_at": "2026-06-08T22:14:14.052486+00:00",
+    "telegram_message_id": 1372
+  },
   "36886a83beb06250": {
     "title": "/plugin` installed-plugin details now show hook event names and MCP server names cleanly",
     "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.139",
@@ -768,6 +817,13 @@
     "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.149",
     "explained_at": "2026-06-03T17:30:05.443520+00:00",
     "telegram_message_id": null
+  },
+  "4d554d3b0bae4e4c": {
+    "title": "Added `--safe-mode` flag (and `CLAUDE_CODE_SAFE_MODE`) to start Claude Code with all customizations (CLAUDE.md, plugins, skills, hooks, MCP servers) disabled for troubleshooting",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.169",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.169",
+    "explained_at": "2026-06-08T22:01:17.639942+00:00",
+    "telegram_message_id": 1365
   },
   "4ec50ab2ff8c15bc": {
     "title": "Host-managed deployments (`CLAUDE_CODE_PROVIDER_MANAGED_BY_HOST`) no longer auto-disable analytics on Bedrock/Vertex/Foundry",
@@ -1118,6 +1174,13 @@
     "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.128",
     "explained_at": "2026-06-03T17:30:05.443868+00:00",
     "telegram_message_id": null
+  },
+  "70e62fbf9eab0717": {
+    "title": "Renamed Windsurf to Devin Desktop in the `/ide` menu, `/terminal-setup`, and `/scroll-speed`, following the editor's rebrand",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.162",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.162",
+    "explained_at": "2026-06-08T22:12:44.024178+00:00",
+    "telegram_message_id": 1371
   },
   "712e0096b3f0875f": {
     "title": "Improved `/feedback` reports to include the conversation that happened before context compaction, making issues from earlier in long sessions easier to triage",
@@ -1966,6 +2029,13 @@
     "explained_at": "2026-06-03T17:30:05.443697+00:00",
     "telegram_message_id": null
   },
+  "b3733e98a8046eb9": {
+    "title": "Remote-managed settings with an invalid entry now apply their remaining valid policies and surface the validation error, instead of silently dropping the whole payload",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.169",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.169",
+    "explained_at": "2026-06-08T22:05:06.384666+00:00",
+    "telegram_message_id": 1369
+  },
   "b4755046ee711327": {
     "title": "Claude Sonnet 4 Model Launch",
     "source": "claude-probe",
@@ -2119,6 +2189,13 @@
     "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.126",
     "explained_at": "2026-06-03T17:30:05.443889+00:00",
     "telegram_message_id": null
+  },
+  "c350e89aec33cfbd": {
+    "title": "Reduced CPU usage while responses stream and during spinner animations",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.169",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.169",
+    "explained_at": "2026-06-08T22:04:15.042923+00:00",
+    "telegram_message_id": 1367
   },
   "c4c14d11b097b022": {
     "title": "Auto mode is now available on Bedrock, Vertex, and Foundry for Opus 4.7 and Opus 4.8",
@@ -2469,6 +2546,13 @@
     "url": "https://docs.claude.com/en/release-notes/overview",
     "explained_at": "2026-06-03T17:29:52.418358+00:00",
     "telegram_message_id": null
+  },
+  "e4f306f8a539cb88": {
+    "title": "Claude Sonnet 4.5 Launch with Enhanced Agentic Reasoning",
+    "source": "claude-probe",
+    "url": "",
+    "explained_at": "2026-06-08T22:17:29.739757+00:00",
+    "telegram_message_id": 1375
   },
   "e6f6be8ed3f49fb3": {
     "title": "Removed the \"Claude in Chrome enabled\" and \"marketplace installed\" startup messages; model auto-updates and the team-onboarding tip now show as quiet notices under the logo",
