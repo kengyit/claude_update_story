@@ -34,6 +34,13 @@
     "explained_at": "2026-06-03T17:29:52.418419+00:00",
     "telegram_message_id": null
   },
+  "03857aa23e0fcffe": {
+    "title": "Native Model Context Protocol (MCP) Server Registry Integration",
+    "source": "claude-probe",
+    "url": "",
+    "explained_at": "2026-06-09T22:10:36.657151+00:00",
+    "telegram_message_id": 1380
+  },
   "03aa2e9991f63758": {
     "title": "←←` to open the agents view now works on Bedrock, Vertex, Foundry, and with telemetry disabled",
     "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.154",
@@ -383,6 +390,13 @@
     "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.128",
     "explained_at": "2026-06-03T17:30:05.443866+00:00",
     "telegram_message_id": null
+  },
+  "21747524455f8281": {
+    "title": "Multi-Agent Orchestration Primitives in Agent SDK",
+    "source": "claude-probe",
+    "url": "",
+    "explained_at": "2026-06-09T22:12:35.749078+00:00",
+    "telegram_message_id": 1385
   },
   "21aa60625809c6bf": {
     "title": "September 18, 2025",
@@ -769,6 +783,13 @@
     "explained_at": "2026-06-03T17:29:52.418464+00:00",
     "telegram_message_id": null
   },
+  "478392c815582db2": {
+    "title": "Claude Code Background Agents via Cloud Execution",
+    "source": "claude-probe",
+    "url": "",
+    "explained_at": "2026-06-09T22:13:31.149959+00:00",
+    "telegram_message_id": 1386
+  },
   "47eca3511dce861d": {
     "title": "/plugin` Discover and Browse screens now show a plugin's commands, agents, skills, hooks, and MCP/LSP servers before installation",
     "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.145",
@@ -1105,6 +1126,13 @@
     "explained_at": "2026-06-03T17:30:05.443704+00:00",
     "telegram_message_id": null
   },
+  "6db9711348285659": {
+    "title": "/workflows` now opens immediately even while a turn is in progress",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.169",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.169",
+    "explained_at": "2026-06-09T22:02:48.280457+00:00",
+    "telegram_message_id": 1378
+  },
   "6dc6bce5017a2f46": {
     "title": "September 11, 2025",
     "source": "https://docs.claude.com/en/release-notes/claude-apps",
@@ -1167,6 +1195,13 @@
     "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.141",
     "explained_at": "2026-06-03T17:30:05.443700+00:00",
     "telegram_message_id": null
+  },
+  "6fbba2edb4c0f5f0": {
+    "title": "The \"CLAUDE.md is too long\" warning threshold now scales with the model's context window",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.169",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.169",
+    "explained_at": "2026-06-09T22:04:48.310261+00:00",
+    "telegram_message_id": 1379
   },
   "704bcf8fae2f441c": {
     "title": "Auto mode: when the classifier can't evaluate an action, the error now includes a hint (retry, `/compact`, or run with `--debug`)",
@@ -2316,12 +2351,26 @@
     "explained_at": "2026-06-03T17:30:05.443873+00:00",
     "telegram_message_id": null
   },
+  "cf0a8a621f8cc3c8": {
+    "title": "Claude Code Hooks System",
+    "source": "claude-probe",
+    "url": "",
+    "explained_at": "2026-06-09T22:11:48.738990+00:00",
+    "telegram_message_id": 1383
+  },
   "cf9a7317e85bb660": {
     "title": "The `/plugin` browse and discover panes now show when a plugin was last updated",
     "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.144",
     "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.144",
     "explained_at": "2026-06-03T17:30:05.443582+00:00",
     "telegram_message_id": null
+  },
+  "d09609482b022a39": {
+    "title": "Files API General Availability",
+    "source": "claude-probe",
+    "url": "",
+    "explained_at": "2026-06-09T22:11:24.682624+00:00",
+    "telegram_message_id": 1382
   },
   "d0e0c540f607ee19": {
     "title": "Added a \"Pasting…\" footer hint while a Ctrl+V image paste is being read from the clipboard",
@@ -2357,6 +2406,13 @@
     "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.129",
     "explained_at": "2026-06-03T17:30:05.443840+00:00",
     "telegram_message_id": null
+  },
+  "d3dd11b92a72a637": {
+    "title": "Introducing Claude Fable 5: a Mythos-class model that we’ve made safe for general use",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.170",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.170",
+    "explained_at": "2026-06-09T22:01:20.979284+00:00",
+    "telegram_message_id": 1377
   },
   "d4723a521b41b1a5": {
     "title": "October 3rd, 2024",
@@ -2659,6 +2715,13 @@
     "explained_at": "2026-06-04T22:09:15.212584+00:00",
     "telegram_message_id": 1334
   },
+  "ef7c3f291fbda58d": {
+    "title": "Batch Inference API for Asynchronous Large-Scale Processing",
+    "source": "claude-probe",
+    "url": "",
+    "explained_at": "2026-06-09T22:12:11.295648+00:00",
+    "telegram_message_id": 1384
+  },
   "f01e27bc4d134f4f": {
     "title": "Updated agent color palette",
     "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.140",
@@ -2819,6 +2882,13 @@
     "url": "https://docs.claude.com/en/release-notes/claude-code",
     "explained_at": "2026-06-03T17:29:52.418519+00:00",
     "telegram_message_id": null
+  },
+  "fe78235d1b06c5f9": {
+    "title": "Extended Thinking Streaming in Claude API",
+    "source": "claude-probe",
+    "url": "",
+    "explained_at": "2026-06-09T22:11:00.213090+00:00",
+    "telegram_message_id": 1381
   },
   "feb56e25a7186765": {
     "title": "claude agents` now accepts `--add-dir`, `--settings`, `--mcp-config`, and `--plugin-dir` and applies them to the dashboard and to background sessions dispatched from it",
