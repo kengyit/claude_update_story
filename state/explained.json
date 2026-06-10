@@ -146,6 +146,13 @@
     "explained_at": "2026-06-03T17:30:05.443724+00:00",
     "telegram_message_id": null
   },
+  "0bba717e05381014": {
+    "title": "Sub-agents can now spawn their own sub-agents (up to 5 levels deep)",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.172",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.172",
+    "explained_at": "2026-06-10T22:01:26.918113+00:00",
+    "telegram_message_id": 1387
+  },
   "0c520e1a088d08e6": {
     "title": "Claude Code in GitHub Actions (CI/CD Integration)",
     "source": "claude-probe",
@@ -1056,6 +1063,13 @@
     "explained_at": "2026-06-03T22:05:53.464605+00:00",
     "telegram_message_id": 1320
   },
+  "60d065969c59895d": {
+    "title": "Promo credit claims for Apple/Google-billed subscribers without a payment method now explain where to add one",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.169",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.169",
+    "explained_at": "2026-06-10T22:10:19.313319+00:00",
+    "telegram_message_id": 1396
+  },
   "624aff46c792724b": {
     "title": "Plugins now warn when a default component folder (e.g",
     "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.140",
@@ -1111,6 +1125,13 @@
     "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.153",
     "explained_at": "2026-06-03T17:30:05.443469+00:00",
     "telegram_message_id": null
+  },
+  "67cca2050c4bd549": {
+    "title": "Background sessions now preserve `--ide`, `--chrome`, `--bare`, `--remote-control`, and other flags across retire→wake, and respawn state validation was hardened",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.169",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.169",
+    "explained_at": "2026-06-10T22:08:49.193111+00:00",
+    "telegram_message_id": 1395
   },
   "680ee63988f2b272": {
     "title": "Streaming tool execution is now always enabled, including when telemetry is disabled or on Bedrock/Vertex/Foundry (previously behind a feature flag)",
@@ -1518,6 +1539,13 @@
     "explained_at": "2026-06-03T17:29:52.418355+00:00",
     "telegram_message_id": null
   },
+  "8acf83f68977fa87": {
+    "title": "Interleaved Thinking and Tool Use via API",
+    "source": "claude-probe",
+    "url": "",
+    "explained_at": "2026-06-10T22:15:53.074431+00:00",
+    "telegram_message_id": 1398
+  },
   "8b6209d402dfb5fc": {
     "title": "Plugin marketplace add/update now respects `CLAUDE_CODE_PLUGIN_PREFER_HTTPS`",
     "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.144",
@@ -1790,6 +1818,13 @@
     "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.126",
     "explained_at": "2026-06-03T17:30:05.443875+00:00",
     "telegram_message_id": null
+  },
+  "9faadfc2138a5d96": {
+    "title": "Reduced idle CPU usage: `/goal` status chip no longer re-renders the terminal at 5 Hz while idle, and fewer UI re-renders while subagents run in parallel",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.172",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.172",
+    "explained_at": "2026-06-10T22:04:00.635359+00:00",
+    "telegram_message_id": 1391
   },
   "a0571fd62b34da44": {
     "title": "plugin-dir` now accepts `.zip` plugin archives in addition to directories",
@@ -2071,6 +2106,13 @@
     "explained_at": "2026-06-08T22:05:06.384666+00:00",
     "telegram_message_id": 1369
   },
+  "b406f4ef89e9e255": {
+    "title": "tools`: explicitly listing Grep/Glob now provides the dedicated search tools on native builds with embedded search (previously these names were silently ignored)",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.162",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.162",
+    "explained_at": "2026-06-10T22:13:24.901115+00:00",
+    "telegram_message_id": 1397
+  },
   "b4755046ee711327": {
     "title": "Claude Sonnet 4 Model Launch",
     "source": "claude-probe",
@@ -2155,6 +2197,13 @@
     "explained_at": "2026-06-03T17:29:52.418422+00:00",
     "telegram_message_id": null
   },
+  "bd9d8738fccc2697": {
+    "title": "Disable mouse tracking on Windows consoles that don't fully support it",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.172",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.172",
+    "explained_at": "2026-06-10T22:03:15.253843+00:00",
+    "telegram_message_id": 1389
+  },
   "bdaddd6085129ed0": {
     "title": "Added `--plugin-url <url>` flag to fetch a plugin `.zip` archive from a URL for the current session",
     "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.129",
@@ -2189,6 +2238,13 @@
     "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.161",
     "explained_at": "2026-06-03T17:30:05.443321+00:00",
     "telegram_message_id": null
+  },
+  "bf3588f50e98df14": {
+    "title": "Stopped promoting `/loop` in remote sessions, where pending loops don't keep the container alive",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.172",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.172",
+    "explained_at": "2026-06-10T22:06:24.505109+00:00",
+    "telegram_message_id": 1393
   },
   "c08e24d6342c0a56": {
     "title": "stdio MCP servers now receive the same `CLAUDE_CODE_SESSION_ID` as hooks/Bash on `--resume`",
@@ -2316,6 +2372,13 @@
     "explained_at": "2026-06-03T17:30:05.443476+00:00",
     "telegram_message_id": null
   },
+  "cae8b776609ef23d": {
+    "title": "Shortened the Remote Control footer indicator to \"/rc active\" and hid it on narrow terminals",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.172",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.172",
+    "explained_at": "2026-06-10T22:06:00.123945+00:00",
+    "telegram_message_id": 1392
+  },
   "cb1d27629aefed7c": {
     "title": "Remote Control now shows as a persistent footer pill (with a link to the session) instead of a startup message",
     "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.162",
@@ -2385,6 +2448,13 @@
     "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.139",
     "explained_at": "2026-06-03T17:30:05.443742+00:00",
     "telegram_message_id": null
+  },
+  "d1c602c1ed764f97": {
+    "title": "Improved performance in long conversations by removing redundant message normalization and avoiding full message-history transforms when streaming tool-use state is unchanged",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.172",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.172",
+    "explained_at": "2026-06-10T22:03:37.613530+00:00",
+    "telegram_message_id": 1390
   },
   "d306d56b007c0204": {
     "title": "September 3, 2025",
@@ -2770,6 +2840,20 @@
     "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.126",
     "explained_at": "2026-06-03T17:30:05.443880+00:00",
     "telegram_message_id": null
+  },
+  "f3030378d06c64c3": {
+    "title": "Amazon Bedrock now reads the AWS region from `~/.aws` config files when `AWS_REGION` isn't set, matching AWS SDK precedence; `/status` shows where the region came from",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.172",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.172",
+    "explained_at": "2026-06-10T22:01:50.451998+00:00",
+    "telegram_message_id": 1388
+  },
+  "f33af438151e7ba7": {
+    "title": "VSCode] Fixed PowerShell tool calls rendering as raw JSON instead of a proper command display and permission dialog, and stripped ANSI escape codes from displayed shell output",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.172",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.172",
+    "explained_at": "2026-06-10T22:06:48.441702+00:00",
+    "telegram_message_id": 1394
   },
   "f3d288c2844f5a66": {
     "title": "Claude Agent SDK Launch",
