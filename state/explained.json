@@ -13,6 +13,13 @@
     "explained_at": "2026-06-03T17:30:05.443333+00:00",
     "telegram_message_id": null
   },
+  "019e2dcaabd084be": {
+    "title": "April 24, 2026",
+    "source": "https://docs.claude.com/en/release-notes/overview",
+    "url": "https://docs.claude.com/en/release-notes/overview",
+    "explained_at": "2026-06-11T22:01:15.499199+00:00",
+    "telegram_message_id": 1400
+  },
   "021762cd1acba160": {
     "title": "Extended Thinking with Streaming in API",
     "source": "claude-probe",
@@ -117,6 +124,13 @@
     "url": "https://docs.claude.com/en/release-notes/overview",
     "explained_at": "2026-06-03T17:29:52.418362+00:00",
     "telegram_message_id": null
+  },
+  "07c6995c1f0fd28f": {
+    "title": "April 20, 2026",
+    "source": "https://docs.claude.com/en/release-notes/overview",
+    "url": "https://docs.claude.com/en/release-notes/overview",
+    "explained_at": "2026-06-11T22:01:39.052468+00:00",
+    "telegram_message_id": 1402
   },
   "08faa1afc0f7dd20": {
     "title": "skillOverrides` setting now works: `off` hides from model and `/`, `user-invocable-only` hides from model only, `name-only` collapses description",
@@ -314,6 +328,13 @@
     "explained_at": "2026-06-03T17:29:52.418567+00:00",
     "telegram_message_id": null
   },
+  "175da1bd987fbd39": {
+    "title": "April 30, 2026",
+    "source": "https://docs.claude.com/en/release-notes/overview",
+    "url": "https://docs.claude.com/en/release-notes/overview",
+    "explained_at": "2026-06-11T22:01:04.578443+00:00",
+    "telegram_message_id": 1399
+  },
   "1964cdcdea8760b4": {
     "title": "EnterWorktree` can now switch between Claude-managed worktrees mid-session",
     "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.157",
@@ -327,6 +348,13 @@
     "url": "https://docs.claude.com/en/release-notes/overview",
     "explained_at": "2026-06-03T17:29:52.418387+00:00",
     "telegram_message_id": null
+  },
+  "1d1fcc59c529290c": {
+    "title": "April 14, 2026",
+    "source": "https://docs.claude.com/en/release-notes/overview",
+    "url": "https://docs.claude.com/en/release-notes/overview",
+    "explained_at": "2026-06-11T22:02:01.709308+00:00",
+    "telegram_message_id": 1404
   },
   "1db49f9a37c0d4ea": {
     "title": "February 24, 2026",
@@ -489,6 +517,13 @@
     "explained_at": "2026-06-03T17:30:05.443517+00:00",
     "telegram_message_id": null
   },
+  "2c2b84514e386c1c": {
+    "title": "Persistent Projects with Long-Term Memory in Claude Apps",
+    "source": "claude-probe",
+    "url": "",
+    "explained_at": "2026-06-11T22:13:57.895404+00:00",
+    "telegram_message_id": 1418
+  },
   "2c9d8b3c1c884f0e": {
     "title": "MCP: `workspace` is now a reserved server name — existing servers with that name will be skipped with a warning",
     "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.128",
@@ -643,6 +678,13 @@
     "explained_at": "2026-06-03T17:30:05.443763+00:00",
     "telegram_message_id": null
   },
+  "36b3685e4a454866": {
+    "title": "August 8, 2025",
+    "source": "https://docs.claude.com/en/release-notes/overview",
+    "url": "https://docs.claude.com/en/release-notes/overview",
+    "explained_at": "2026-06-11T22:02:51.982428+00:00",
+    "telegram_message_id": 1409
+  },
   "36b8ad04fcca2709": {
     "title": "February 25, 2026",
     "source": "https://docs.claude.com/en/release-notes/claude-apps",
@@ -677,6 +719,13 @@
     "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.144",
     "explained_at": "2026-06-03T17:30:05.443602+00:00",
     "telegram_message_id": null
+  },
+  "398198774d114f57": {
+    "title": "March 18, 2026",
+    "source": "https://docs.claude.com/en/release-notes/overview",
+    "url": "https://docs.claude.com/en/release-notes/overview",
+    "explained_at": "2026-06-11T22:02:21.253988+00:00",
+    "telegram_message_id": 1406
   },
   "398afb3fcb691e6b": {
     "title": "February 17, 2026",
@@ -909,6 +958,13 @@
     "explained_at": "2026-06-03T17:30:05.443391+00:00",
     "telegram_message_id": null
   },
+  "548ab671956af68a": {
+    "title": "March 30, 2026",
+    "source": "https://docs.claude.com/en/release-notes/overview",
+    "url": "https://docs.claude.com/en/release-notes/overview",
+    "explained_at": "2026-06-11T22:02:11.411227+00:00",
+    "telegram_message_id": 1405
+  },
   "54c259ce3878514a": {
     "title": "Added the session entrypoint as an OpenTelemetry metric attribute (`app.entrypoint`, opt-in via `OTEL_METRICS_INCLUDE_ENTRYPOINT=true`)",
     "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.152",
@@ -978,6 +1034,13 @@
     "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.141",
     "explained_at": "2026-06-03T17:30:05.443690+00:00",
     "telegram_message_id": null
+  },
+  "5b3471c5ee8e810d": {
+    "title": "March 16, 2026",
+    "source": "https://docs.claude.com/en/release-notes/overview",
+    "url": "https://docs.claude.com/en/release-notes/overview",
+    "explained_at": "2026-06-11T22:02:31.376260+00:00",
+    "telegram_message_id": 1407
   },
   "5ba47f954cb5a27e": {
     "title": "Removed stale `/model claude-sonnet-4-20250514` suggestion from Usage Policy refusal messages",
@@ -1230,6 +1293,13 @@
     "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.128",
     "explained_at": "2026-06-03T17:30:05.443868+00:00",
     "telegram_message_id": null
+  },
+  "70ce60fb557f6034": {
+    "title": "April 16, 2026",
+    "source": "https://docs.claude.com/en/release-notes/overview",
+    "url": "https://docs.claude.com/en/release-notes/overview",
+    "explained_at": "2026-06-11T22:01:50.416643+00:00",
+    "telegram_message_id": 1403
   },
   "70e62fbf9eab0717": {
     "title": "Renamed Windsurf to Devin Desktop in the `/ide` menu, `/terminal-setup`, and `/scroll-speed`, following the editor's rebrand",
@@ -1735,6 +1805,13 @@
     "explained_at": "2026-06-03T17:30:05.443622+00:00",
     "telegram_message_id": null
   },
+  "99fd249786043cd0": {
+    "title": "Hooks System in Claude Code",
+    "source": "claude-probe",
+    "url": "",
+    "explained_at": "2026-06-11T22:13:12.884933+00:00",
+    "telegram_message_id": 1416
+  },
   "9a24518800ddf09b": {
     "title": "Background agent sessions now update to a new Claude Code version in the background, so opening a session after an update no longer waits on a cold restart",
     "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.163",
@@ -1987,6 +2064,13 @@
     "explained_at": "2026-06-03T17:29:52.418427+00:00",
     "telegram_message_id": null
   },
+  "ab6d602cc6c3b147": {
+    "title": "May 10th, 2024",
+    "source": "https://docs.claude.com/en/release-notes/overview",
+    "url": "https://docs.claude.com/en/release-notes/overview",
+    "explained_at": "2026-06-11T22:03:54.434602+00:00",
+    "telegram_message_id": 1413
+  },
   "ab8bbe8f61556ede": {
     "title": "Bare `/color` (no args) now picks a random session color",
     "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.128",
@@ -2014,6 +2098,13 @@
     "url": "",
     "explained_at": "2026-06-06T22:10:41.165240+00:00",
     "telegram_message_id": 1355
+  },
+  "af06e5fe5f4e8afc": {
+    "title": "Agent SDK Multi-Agent Coordination Primitives",
+    "source": "claude-probe",
+    "url": "",
+    "explained_at": "2026-06-11T22:14:43.807502+00:00",
+    "telegram_message_id": 1420
   },
   "af24b3ed862141b4": {
     "title": "Quieter startup: notices group by severity, and session info and announcements share a single line per launch",
@@ -2218,6 +2309,13 @@
     "explained_at": "2026-06-03T17:30:05.443589+00:00",
     "telegram_message_id": null
   },
+  "bdc8cb3a8aec2d52": {
+    "title": "July 9th, 2024",
+    "source": "https://docs.claude.com/en/release-notes/overview",
+    "url": "https://docs.claude.com/en/release-notes/overview",
+    "explained_at": "2026-06-11T22:03:34.672291+00:00",
+    "telegram_message_id": 1411
+  },
   "be647c4997589340": {
     "title": "Stop and SubagentStop hook input now includes `background_tasks` and `session_crons` fields",
     "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.145",
@@ -2288,6 +2386,13 @@
     "explained_at": "2026-06-08T22:04:15.042923+00:00",
     "telegram_message_id": 1367
   },
+  "c36c048318efa22e": {
+    "title": "Added a search bar when browsing a marketplace's plugins in `/plugin`",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.172",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.172",
+    "explained_at": "2026-06-11T22:04:16.451956+00:00",
+    "telegram_message_id": 1414
+  },
   "c4c14d11b097b022": {
     "title": "Auto mode is now available on Bedrock, Vertex, and Foundry for Opus 4.7 and Opus 4.8",
     "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.158",
@@ -2315,6 +2420,13 @@
     "url": "",
     "explained_at": "2026-06-04T22:08:50.139099+00:00",
     "telegram_message_id": 1333
+  },
+  "c5a955646aa53fa9": {
+    "title": "Native Tool Use Streaming Improvements",
+    "source": "claude-probe",
+    "url": "",
+    "explained_at": "2026-06-11T22:13:36.413206+00:00",
+    "telegram_message_id": 1417
   },
   "c665f306a50dd967": {
     "title": "Improved the auto-mode classifier's detection of data exfiltration, particularly bulk transfers of repository contents",
@@ -2392,6 +2504,13 @@
     "url": "https://docs.claude.com/en/release-notes/overview",
     "explained_at": "2026-06-03T17:29:52.418390+00:00",
     "telegram_message_id": null
+  },
+  "ccf7a01a0d127d27": {
+    "title": "May 30th, 2024",
+    "source": "https://docs.claude.com/en/release-notes/overview",
+    "url": "https://docs.claude.com/en/release-notes/overview",
+    "explained_at": "2026-06-11T22:03:44.096409+00:00",
+    "telegram_message_id": 1412
   },
   "ce0238bddbc0e1fe": {
     "title": "Improved the Read tool to return a truncated first page with a \"PARTIAL view\" notice instead of a hard error when a whole-file read exceeds the token limit",
@@ -2546,6 +2665,13 @@
     "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.141",
     "explained_at": "2026-06-03T17:30:05.443714+00:00",
     "telegram_message_id": null
+  },
+  "daad4717c3524d0a": {
+    "title": "Extended Thinking with Budget Control via API",
+    "source": "claude-probe",
+    "url": "",
+    "explained_at": "2026-06-11T22:14:19.966168+00:00",
+    "telegram_message_id": 1419
   },
   "dabf374853db04a1": {
     "title": "Hardened cross-session messaging: messages relayed via `SendMessage` from other Claude sessions no longer carry user authority — receivers refuse relayed permission requests, and...",
@@ -2778,6 +2904,20 @@
     "explained_at": "2026-06-03T17:29:52.418442+00:00",
     "telegram_message_id": null
   },
+  "ed2775ef187c2426": {
+    "title": "March 13, 2026",
+    "source": "https://docs.claude.com/en/release-notes/overview",
+    "url": "https://docs.claude.com/en/release-notes/overview",
+    "explained_at": "2026-06-11T22:02:41.423589+00:00",
+    "telegram_message_id": 1408
+  },
+  "eeeb34e5b1fa8b47": {
+    "title": "Added `model` attribute to the `claude_code.lines_of_code.count` OTEL metric",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.172",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.172",
+    "explained_at": "2026-06-11T22:04:38.664767+00:00",
+    "telegram_message_id": 1415
+  },
   "ef5307bf6681d391": {
     "title": "Claude Code Background Agents (Headless Cloud Execution)",
     "source": "claude-probe",
@@ -2806,6 +2946,13 @@
     "explained_at": "2026-06-03T17:30:05.443372+00:00",
     "telegram_message_id": null
   },
+  "f0774e433e1c5d56": {
+    "title": "Claude Code Background Agent Mode",
+    "source": "claude-probe",
+    "url": "",
+    "explained_at": "2026-06-11T22:15:05.577733+00:00",
+    "telegram_message_id": 1421
+  },
   "f08626332d48053b": {
     "title": "September 10, 2025",
     "source": "https://docs.claude.com/en/release-notes/overview",
@@ -2833,6 +2980,13 @@
     "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.129",
     "explained_at": "2026-06-03T17:30:05.443842+00:00",
     "telegram_message_id": null
+  },
+  "f25ba058a1578c13": {
+    "title": "April 23, 2026",
+    "source": "https://docs.claude.com/en/release-notes/overview",
+    "url": "https://docs.claude.com/en/release-notes/overview",
+    "explained_at": "2026-06-11T22:01:26.454705+00:00",
+    "telegram_message_id": 1401
   },
   "f2db6a87b1eaab2a": {
     "title": "claude auth login` now accepts the OAuth code pasted into the terminal when the browser callback can't reach localhost (WSL2, SSH, containers)",
