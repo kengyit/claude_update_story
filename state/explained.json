@@ -55,6 +55,13 @@
     "explained_at": "2026-06-03T17:30:05.443413+00:00",
     "telegram_message_id": null
   },
+  "0436838840339001": {
+    "title": "Improved the non-interactive Usage Policy refusal message to suggest starting a new session or changing your model",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.172",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.172",
+    "explained_at": "2026-06-12T22:05:50.202673+00:00",
+    "telegram_message_id": 1424
+  },
   "047e1dc296b90b47": {
     "title": "claude mcp list`/`get` now show unapproved `.mcp.json` servers as `⏸ Pending approval` instead of auto-approving and connecting when output is piped",
     "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.154",
@@ -600,6 +607,13 @@
     "url": "",
     "explained_at": "2026-06-04T22:11:40.174977+00:00",
     "telegram_message_id": 1336
+  },
+  "31784080396dcce8": {
+    "title": "Subagents in Claude Code",
+    "source": "claude-probe",
+    "url": "",
+    "explained_at": "2026-06-12T22:12:28.315957+00:00",
+    "telegram_message_id": 1426
   },
   "3178cffbeb290fa0": {
     "title": "Added `claude plugin init <name>` to scaffold a new plugin in `.claude/skills`",
@@ -1329,6 +1343,13 @@
     "explained_at": "2026-06-03T17:30:05.443833+00:00",
     "telegram_message_id": null
   },
+  "719b34cd99b8e895": {
+    "title": "Model Context Protocol (MCP) First-Party Server Registry",
+    "source": "claude-probe",
+    "url": "",
+    "explained_at": "2026-06-12T22:14:39.605590+00:00",
+    "telegram_message_id": 1429
+  },
   "71b222f1ff3ce49c": {
     "title": "Improved diff rendering performance for large file edits",
     "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.147",
@@ -1370,6 +1391,13 @@
     "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.162",
     "explained_at": "2026-06-03T22:05:30.038990+00:00",
     "telegram_message_id": 1319
+  },
+  "77cd6a5098ca2937": {
+    "title": "Extended Thinking with Interleaved Tool Use on API",
+    "source": "claude-probe",
+    "url": "",
+    "explained_at": "2026-06-12T22:13:22.593537+00:00",
+    "telegram_message_id": 1427
   },
   "78c9821f3305ae80": {
     "title": "channels` now works with console (API key) authentication — console orgs with managed settings must set `channelsEnabled: true` to enable",
@@ -1720,6 +1748,13 @@
     "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.163",
     "explained_at": "2026-06-04T22:02:37.688019+00:00",
     "telegram_message_id": 1328
+  },
+  "91f1139b51a02fe7": {
+    "title": "VSCode] Added usage attribution to the Account & usage dialog (`/usage`) showing cache misses, long context, subagents, and per-skill/agent/plugin/MCP breakdowns over the last 24h...",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.174",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.174",
+    "explained_at": "2026-06-12T22:04:56.951008+00:00",
+    "telegram_message_id": 1423
   },
   "926812d93baec578": {
     "title": "Remote MCP server reconnect retry on transient failures is now enabled for all users",
@@ -2246,6 +2281,13 @@
     "explained_at": "2026-06-03T17:29:52.418365+00:00",
     "telegram_message_id": null
   },
+  "b6ab9708092bab49": {
+    "title": "Native Code Execution Tool in Claude Apps",
+    "source": "claude-probe",
+    "url": "",
+    "explained_at": "2026-06-12T22:14:16.064719+00:00",
+    "telegram_message_id": 1428
+  },
   "b7d182b12beda4a8": {
     "title": "Added new `claude agents` flags: `--add-dir`, `--settings`, `--mcp-config`, `--plugin-dir`, `--permission-mode`, `--model`, `--effort`, and `--dangerously-skip-permissions` to...",
     "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.142",
@@ -2610,6 +2652,13 @@
     "explained_at": "2026-06-03T17:29:52.418492+00:00",
     "telegram_message_id": null
   },
+  "d48b939cc5ecca0a": {
+    "title": "/code-review` now keeps the `ultra` option visible when you're not signed in to claude.ai, with an explanation that the cloud review requires a claude.ai account",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.172",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.172",
+    "explained_at": "2026-06-12T22:06:12.190850+00:00",
+    "telegram_message_id": 1425
+  },
   "d5c31c9b05a728a2": {
     "title": "August 14th, 2024",
     "source": "https://docs.claude.com/en/release-notes/overview",
@@ -2847,6 +2896,13 @@
     "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.157",
     "explained_at": "2026-06-03T17:30:05.443353+00:00",
     "telegram_message_id": null
+  },
+  "eac397abac4ddd11": {
+    "title": "Added `footerLinksRegexes` setting for regex-matched link badges in the footer row, configurable via user or managed settings",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.176",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.176",
+    "explained_at": "2026-06-12T22:02:24.389415+00:00",
+    "telegram_message_id": 1422
   },
   "eb09ef9f4cf7a4d3": {
     "title": "June 20th, 2024",
