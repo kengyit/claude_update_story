@@ -496,6 +496,13 @@
     "explained_at": "2026-06-06T22:03:37.830020+00:00",
     "telegram_message_id": 1350
   },
+  "28a63e630682b59e": {
+    "title": "Real-Time Streaming Tool Use in the API",
+    "source": "claude-probe",
+    "url": "",
+    "explained_at": "2026-06-13T22:13:13.504596+00:00",
+    "telegram_message_id": 1434
+  },
   "2979487477acdc8b": {
     "title": "Added `skipLfs` option to `github`/`git` plugin marketplace sources to skip Git LFS downloads during clone and update",
     "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.153",
@@ -747,6 +754,13 @@
     "url": "https://docs.claude.com/en/release-notes/overview",
     "explained_at": "2026-06-03T17:29:52.418338+00:00",
     "telegram_message_id": null
+  },
+  "3a57531846d68465": {
+    "title": "Added `wheelScrollAccelerationEnabled` setting to disable mouse-wheel scroll acceleration in fullscreen mode",
+    "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.174",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.174",
+    "explained_at": "2026-06-13T22:04:07.650415+00:00",
+    "telegram_message_id": 1430
   },
   "3ca027c0754811a9": {
     "title": "March 31st, 2025",
@@ -1861,6 +1875,13 @@
     "explained_at": "2026-06-03T17:30:05.443770+00:00",
     "telegram_message_id": null
   },
+  "9b7bc888c04d7873": {
+    "title": "Persistent Memory and Context in Claude Apps",
+    "source": "claude-probe",
+    "url": "",
+    "explained_at": "2026-06-13T22:10:57.355065+00:00",
+    "telegram_message_id": 1431
+  },
   "9bc2484fefb40f64": {
     "title": "Clearer descriptions for built-in commands and skills in the / menu",
     "source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.163",
@@ -2190,6 +2211,13 @@
     "explained_at": "2026-06-03T17:30:05.443490+00:00",
     "telegram_message_id": null
   },
+  "b1ec4b2d6c803b4c": {
+    "title": "Claude Code Headless CI/CD Mode",
+    "source": "claude-probe",
+    "url": "",
+    "explained_at": "2026-06-13T22:11:55.359663+00:00",
+    "telegram_message_id": 1432
+  },
   "b1f23338c214697e": {
     "title": "Navigation Menu",
     "source": "https://docs.claude.com/en/release-notes/claude-code",
@@ -2329,6 +2357,13 @@
     "url": "https://docs.claude.com/en/release-notes/overview",
     "explained_at": "2026-06-03T17:29:52.418422+00:00",
     "telegram_message_id": null
+  },
+  "bcce9c320bfad1b7": {
+    "title": "Claude Sonnet 4.5 Model Launch",
+    "source": "claude-probe",
+    "url": "",
+    "explained_at": "2026-06-13T22:12:50.608675+00:00",
+    "telegram_message_id": 1433
   },
   "bd9d8738fccc2697": {
     "title": "Disable mouse tracking on Windows consoles that don't fully support it",
@@ -2742,6 +2777,13 @@
     "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.157",
     "explained_at": "2026-06-03T17:30:05.443374+00:00",
     "telegram_message_id": null
+  },
+  "dc14a9e6849cbd79": {
+    "title": "Claude Opus 4.1 Model Launch",
+    "source": "claude-probe",
+    "url": "",
+    "explained_at": "2026-06-13T22:15:46.315826+00:00",
+    "telegram_message_id": 1435
   },
   "dc8e76a6e4aef29b": {
     "title": "/mcp` Reconnect now picks up `.mcp.json` edits without a restart, and shows the HTTP status and URL when reconnecting fails",
